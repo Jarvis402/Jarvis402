@@ -41,9 +41,11 @@ Jarvis402's autonomous payment system is powered by four core smart contracts th
 ## 1. PaymentGateway.sol
 
 ### Purpose
+
 Handles all payment processing, escrow, and fund transfers.
 
 ### Key Features
+
 - Native token and ERC20 support
 - Payment escrow and release
 - Refund mechanism
@@ -119,9 +121,11 @@ event PaymentRefunded(
 ## 2. SpendingLimits.sol
 
 ### Purpose
+
 Enforces user-defined spending limits to prevent overspending.
 
 ### Key Features
+
 - Daily/weekly/monthly limits
 - Automatic time-based resets
 - Approved spender management
@@ -211,9 +215,11 @@ event SpenderRevoked(
 ## 3. X402Registry.sol
 
 ### Purpose
+
 Central registry for x402-compatible services and their pricing.
 
 ### Key Features
+
 - Service registration
 - Multi-tier pricing
 - Service verification
@@ -315,9 +321,11 @@ event RequestRecorded(
 ## 4. Jarvis402Token.sol (J402)
 
 ### Purpose
+
 Native ecosystem token for rewards, governance, and staking.
 
 ### Key Features
+
 - ERC20 compliant
 - Fixed max supply (1B)
 - Reward distribution
@@ -431,17 +439,20 @@ If any fail:
 ## Security Features
 
 ### Access Control
+
 - `Ownable`: Admin functions
 - `approvedSpenders`: Authorized agents
 - `ReentrancyGuard`: Prevent reentrancy attacks
 
 ### Input Validation
+
 - Non-zero addresses
 - Positive amounts
 - Valid limit hierarchies
 - Service existence checks
 
 ### State Management
+
 - Payment completion flags
 - Spending trackers
 - Timestamp validations
@@ -450,21 +461,26 @@ If any fail:
 ## Gas Optimization
 
 ### Efficient Storage
+
 - Pack structs to save slots
 - Use `uint256` for counters
 - Minimize SLOAD operations
 
 ### Batch Operations
+
 - Coming soon: Batch payments
 - Coming soon: Batch limit updates
 
 ## Upgradeability
 
 ### Current Status
+
 Contracts are **not upgradeable** for security.
 
 ### Future Plans
+
 Consider proxy pattern with:
+
 - Timelock governance
 - Multi-sig approval
 - Community voting
@@ -472,6 +488,7 @@ Consider proxy pattern with:
 ## Testing
 
 Each contract has 30+ tests covering:
+
 - ✅ Normal operations
 - ✅ Edge cases
 - ✅ Access control
@@ -484,6 +501,7 @@ See [/contracts/test](../../contracts/test/) for full test suite.
 ## Deployment
 
 ### Networks Supported
+
 - Ethereum Mainnet
 - Polygon
 - Base
@@ -492,6 +510,7 @@ See [/contracts/test](../../contracts/test/) for full test suite.
 - Solana (adapted version)
 
 ### Deployment Process
+
 ```bash
 # Compile contracts
 npx hardhat compile
@@ -509,6 +528,7 @@ npx hardhat verify --network sepolia CONTRACT_ADDRESS
 ## Contract Addresses
 
 ### Mainnet
+
 ```
 PaymentGateway: Coming soon
 SpendingLimits: Coming soon
@@ -517,6 +537,7 @@ Jarvis402Token: Coming soon
 ```
 
 ### Testnet (Sepolia)
+
 ```
 PaymentGateway: 0x...
 SpendingLimits: 0x...
@@ -527,16 +548,19 @@ Jarvis402Token: 0x...
 ## Audits
 
 ### Status
+
 - ⏳ Security audit in progress
 - Target: Q1 2025
 
 ### Auditors
+
 - Trail of Bits (planned)
 - OpenZeppelin (planned)
 
 ## Source Code
 
 All contracts are open source:
+
 - GitHub: [github.com/jarvis402/jarvis402](https://github.com/jarvis402/jarvis402)
 - License: MIT
 - Folder: `/contracts`

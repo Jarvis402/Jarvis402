@@ -9,6 +9,7 @@ Master Jarvis402 and cryptocurrency analysis with these proven strategies, tips,
 Jarvis402 is a powerful tool, but never your only source:
 
 ✅ **Do:**
+
 - Use Jarvis402 as your starting point
 - Cross-reference findings with blockchain explorers
 - Check social media and community channels
@@ -17,6 +18,7 @@ Jarvis402 is a powerful tool, but never your only source:
 - Research the team
 
 ❌ **Don't:**
+
 - Blindly trust any single source
 - Skip verification steps
 - Invest based on AI alone
@@ -27,11 +29,13 @@ Jarvis402 is a powerful tool, but never your only source:
 Never risk more than you can afford to lose:
 
 **Position Sizing:**
+
 - 🟢 LOW Risk: Max 5-10% of portfolio
 - 🟡 MEDIUM Risk: Max 2-5% of portfolio
 - 🔴 HIGH Risk: Max 0.5-1% of portfolio (if at all)
 
 **First Investment:**
+
 - Test with very small amounts
 - Learn the platform's feel
 - Understand token behavior
@@ -42,12 +46,14 @@ Never risk more than you can afford to lose:
 Know when to sell BEFORE you buy:
 
 **Define:**
+
 - Profit targets (e.g., 2x, 5x, 10x)
 - Stop loss levels (e.g., -20%, -30%)
 - Time horizons (day trade, swing, hold)
 - Red flag triggers for immediate exit
 
 **Stick to it:**
+
 - Don't let emotions override strategy
 - Take profits at targets
 - Cut losses at stops
@@ -58,12 +64,14 @@ Know when to sell BEFORE you buy:
 ### Asking Better Questions
 
 **Be Specific:**
+
 ```
 ❌ "Is this good?"
 ✅ "Is [contract address] safe for a 3-day swing trade?"
 ```
 
 **Provide Context:**
+
 ```
 ❌ "Tell me about this token"
 ✅ "Analyze [address] focusing on liquidity lock status
@@ -71,6 +79,7 @@ Know when to sell BEFORE you buy:
 ```
 
 **Batch Related Queries:**
+
 ```
 ❌ Sending 5 separate questions
 ✅ "For [token]: risk score, top red flags, comparison
@@ -80,18 +89,21 @@ Know when to sell BEFORE you buy:
 ### Interpreting Results
 
 **Read Completely:**
+
 - Don't just skim the risk score
 - Understand WHY the score is what it is
 - Note specific red flags
 - Check source citations
 
 **Look for Patterns:**
+
 - Multiple red flags = compounding risk
 - Improving metrics = positive trend
 - Worsening metrics = exit signal
 - Conflicting signals = dig deeper
 
 **Ask Follow-Ups:**
+
 ```
 Initial: "Analyze [token]"
 Follow-up: "You mentioned whale concentration - how does
@@ -101,18 +113,21 @@ that compare to successful similar tokens?"
 ### Timing Your Analysis
 
 **Before Buying:**
+
 - Full analysis mandatory
 - Check during different times
 - Monitor for 24-48h if possible
 - Verify data hasn't changed
 
 **While Holding:**
+
 - Weekly check-ins minimum
 - After major news/events
 - If price moves significantly
 - Before adding to position
 
 **Before Selling:**
+
 - Confirm reasons for exit
 - Check if fundamentals changed
 - Ensure not selling at worst time
@@ -123,11 +138,13 @@ that compare to successful similar tokens?"
 ### Step 1: Initial Screening
 
 Ask Jarvis402:
+
 ```
 "Quick risk assessment for [address]"
 ```
 
 **Decision Point:**
+
 - 🔴 HIGH risk → Skip, move on
 - 🟡 MEDIUM risk → Proceed to Step 2
 - 🟢 LOW risk → Proceed to Step 2
@@ -135,6 +152,7 @@ Ask Jarvis402:
 ### Step 2: Deep Analysis
 
 Ask Jarvis402:
+
 ```
 "Comprehensive analysis of [address] including
 holder distribution, liquidity lock status,
@@ -142,18 +160,21 @@ contract security, and comparison to similar tokens"
 ```
 
 **Evaluate:**
+
 - All risk factors
 - Specific red flags
 - Green flags present
 - Overall risk/reward
 
 **Decision Point:**
+
 - Acceptable risk → Proceed to Step 3
 - Unacceptable risk → Skip
 
 ### Step 3: External Verification
 
 **Check:**
+
 - Contract on blockchain explorer
 - Social media (X, Telegram)
 - Chart on DexScreener
@@ -161,12 +182,14 @@ contract security, and comparison to similar tokens"
 - Team background (if not anonymous)
 
 **Decision Point:**
+
 - Everything checks out → Proceed to Step 4
 - Something feels off → Skip
 
 ### Step 4: Position Planning
 
 **Determine:**
+
 - Position size (based on risk)
 - Entry price/strategy
 - Profit targets
@@ -176,6 +199,7 @@ contract security, and comparison to similar tokens"
 ### Step 5: Execute & Monitor
 
 **After Entry:**
+
 - Set price alerts
 - Schedule check-ins
 - Monitor Jarvis402 for changes
@@ -187,11 +211,13 @@ contract security, and comparison to similar tokens"
 ### Diversification
 
 **Never:**
+
 - Put everything in one token
 - Overconcentrate in high risk
 - Ignore correlation (all similar tokens)
 
 **Instead:**
+
 - Spread across multiple tokens
 - Mix risk levels
 - Different market caps
@@ -219,16 +245,19 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Stop Losses
 
 **Set Before Entry:**
+
 - Price-based: "Exit at -25%"
 - Time-based: "If not up in 3 days, exit"
 - Event-based: "If liquidity drops, exit immediately"
 
 **Common Levels:**
+
 - Conservative: -15 to -20%
 - Moderate: -25 to -35%
 - Aggressive: -40 to -50%
 
 **Honor Them:**
+
 - Don't move stops lower
 - Exit without hesitation
 - Better safe than sorry
@@ -239,11 +268,13 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #1: FOMO (Fear of Missing Out)
 
 **Problem:**
+
 - Buying after huge pump
 - Chasing green candles
 - Skipping analysis due to urgency
 
 **Solution:**
+
 - Miss some, catch others
 - Be patient for entries
 - Never skip due diligence
@@ -252,11 +283,13 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #2: Ignoring Red Flags
 
 **Problem:**
+
 - "But the chart looks good!"
 - Rationalizing away concerns
 - Hoping scam indicators are wrong
 
 **Solution:**
+
 - Trust the analysis
 - Red flags are warnings
 - Don't be the exit liquidity
@@ -265,12 +298,14 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #3: Oversizing Positions
 
 **Problem:**
+
 - Too much in one token
 - Account at risk
 - Emotional decision making
 - Unable to sleep
 
 **Solution:**
+
 - Follow position sizing rules
 - Comfort test: "Can I lose this peacefully?"
 - Scale in, don't go all-in
@@ -279,11 +314,13 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #4: No Exit Plan
 
 **Problem:**
+
 - Holding through dumps
 - Missing profit targets
 - Indecision at key moments
 
 **Solution:**
+
 - Set targets before buying
 - Automate with limit orders
 - Partial profit taking
@@ -292,12 +329,14 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #5: Revenge Trading
 
 **Problem:**
+
 - Lost on token A
 - Immediately buy token B to recover
 - Emotional, rushed decisions
 - Compound losses
 
 **Solution:**
+
 - Take breaks after losses
 - Process emotions first
 - Return with clear mind
@@ -306,11 +345,13 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 ### Mistake #6: Trusting Influencers
 
 **Problem:**
+
 - "X said it's going 100x!"
 - Following calls blindly
 - Not doing own analysis
 
 **Solution:**
+
 - Everyone has incentives
 - Many are paid promoters
 - Do your own research
@@ -323,6 +364,7 @@ HIGH risk token: $10,000 × 5% / 7.5 = $67 max
 Instead of buying all at once:
 
 **Strategy:**
+
 ```
 Total planned: $500
 Entry 1: $150 at current price (test position)
@@ -331,6 +373,7 @@ Entry 3: $200 if metrics improving
 ```
 
 **Benefits:**
+
 - Test hypothesis with small capital
 - Average entry price
 - Confirm analysis over time
@@ -341,6 +384,7 @@ Entry 3: $200 if metrics improving
 Don't sell all at once:
 
 **Strategy:**
+
 ```
 Total holding: 100,000 tokens
 Sell 25% at 2x (recover half initial investment)
@@ -350,6 +394,7 @@ Sell 25% at 20x or let it ride
 ```
 
 **Benefits:**
+
 - Lock in profits
 - Reduce stress
 - Still exposed to upside
@@ -360,12 +405,14 @@ Sell 25% at 20x or let it ride
 Combine AI analysis with technical analysis:
 
 **Process:**
+
 1. Use Jarvis402 for fundamental analysis
 2. Check chart for technical setup
 3. Both must align for entry
 4. Use technical for timing, AI for validation
 
 **Example:**
+
 - Seer shows LOW risk = ✅
 - Chart shows breakout pattern = ✅
 - Entry confirmed
@@ -375,6 +422,7 @@ Combine AI analysis with technical analysis:
 Track related tokens:
 
 **Strategy:**
+
 ```
 Ask Jarvis402:
 "Compare these three similar tokens:
@@ -383,6 +431,7 @@ Which has the best risk/reward?"
 ```
 
 **Benefits:**
+
 - Find best in category
 - Avoid weakest performers
 - Understand sector trends
@@ -393,6 +442,7 @@ Which has the best risk/reward?"
 ### Jarvis402 + Blockchain Explorer
 
 **Workflow:**
+
 1. Seer analysis first
 2. Verify top holders on explorer
 3. Check recent transactions
@@ -402,6 +452,7 @@ Which has the best risk/reward?"
 ### Jarvis402 + DexScreener
 
 **Workflow:**
+
 1. Seer for fundamentals
 2. DexScreener for chart
 3. Cross-check volume data
@@ -411,6 +462,7 @@ Which has the best risk/reward?"
 ### Jarvis402 + Social Media
 
 **Workflow:**
+
 1. Seer identifies concerns
 2. Check X for news
 3. Join Telegram for sentiment
@@ -467,6 +519,7 @@ If ANY checkbox fails, reconsider or skip.
 ### 1. Keep a Trading Journal
 
 **Record:**
+
 - Entry/exit prices and dates
 - Seer risk score at entry
 - Reason for trade
@@ -474,6 +527,7 @@ If ANY checkbox fails, reconsider or skip.
 - Lessons learned
 
 **Benefits:**
+
 - Learn from mistakes
 - Identify patterns
 - Improve over time
@@ -482,6 +536,7 @@ If ANY checkbox fails, reconsider or skip.
 ### 2. Continuous Learning
 
 **Stay Updated:**
+
 - New scam tactics
 - Market narratives
 - Platform updates
@@ -489,6 +544,7 @@ If ANY checkbox fails, reconsider or skip.
 - Community insights
 
 **Resources:**
+
 - Jarvis402 documentation
 - Crypto Twitter
 - Trading communities
@@ -497,6 +553,7 @@ If ANY checkbox fails, reconsider or skip.
 ### 3. Emotional Discipline
 
 **Develop:**
+
 - Patience for entries
 - Courage for exits
 - Acceptance of losses
@@ -504,6 +561,7 @@ If ANY checkbox fails, reconsider or skip.
 - Consistency in process
 
 **Techniques:**
+
 - Meditation
 - Position sizing for comfort
 - Breaks after big wins/losses
@@ -512,6 +570,7 @@ If ANY checkbox fails, reconsider or skip.
 ### 4. Network Effects
 
 **Build:**
+
 - Join quality communities
 - Share insights (not financial advice)
 - Learn from others

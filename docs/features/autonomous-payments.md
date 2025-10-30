@@ -5,6 +5,7 @@ Jarvis402's core feature is autonomous payment processing using the x402 protoco
 ## Overview
 
 Autonomous payments allow Jarvis402 to:
+
 - Detect when a service requires payment (HTTP 402)
 - Process blockchain transactions automatically
 - Complete payments without manual approval
@@ -68,6 +69,7 @@ Total time: **~3-5 seconds** from request to delivery!
 ### Native Token Payments
 
 Pay with the blockchain's native currency:
+
 - **Ethereum**: ETH
 - **Solana**: SOL
 - **Polygon**: MATIC
@@ -76,6 +78,7 @@ Pay with the blockchain's native currency:
 ### ERC20 Token Payments
 
 Pay with standard tokens:
+
 - USDC, USDT, DAI
 - Custom x402 tokens
 - Service-specific tokens
@@ -83,6 +86,7 @@ Pay with standard tokens:
 ### Multi-Chain Support
 
 Jarvis402 is blockchain agnostic:
+
 - Automatically detects required chain
 - Uses appropriate wallet connection
 - Handles gas fees correctly per chain
@@ -133,6 +137,7 @@ You maintain full control with configurable limits:
 ### Transaction Transparency
 
 Every payment is:
+
 - ✅ Recorded on-chain (publicly verifiable)
 - ✅ Displayed with transaction hash
 - ✅ Includes service details
@@ -160,6 +165,7 @@ Payments go through these states:
 ### What Are Gas Fees?
 
 Gas fees are transaction costs paid to blockchain validators:
+
 - Variable based on network congestion
 - Typically $0.01 - $1.00
 - Added to service payment cost
@@ -167,6 +173,7 @@ Gas fees are transaction costs paid to blockchain validators:
 ### Gas Optimization
 
 Jarvis402 optimizes gas usage:
+
 - Estimates fees before transaction
 - Uses efficient transaction types
 - Batches multiple payments when possible
@@ -177,6 +184,7 @@ Jarvis402 optimizes gas usage:
 If a payment fails:
 
 ### Service Unavailable
+
 ```
 ❌ Service temporarily unavailable
 ⟳ Retrying in 5 seconds...
@@ -184,6 +192,7 @@ If a payment fails:
 ```
 
 ### Insufficient Funds
+
 ```
 ❌ Insufficient balance
    Required: 0.01 ETH
@@ -193,6 +202,7 @@ If a payment fails:
 ```
 
 ### Limit Exceeded
+
 ```
 ❌ Daily spending limit exceeded
    Limit: 0.01 ETH
@@ -202,6 +212,7 @@ If a payment fails:
 ```
 
 ### Transaction Reverted
+
 ```
 ❌ Transaction failed
    Reason: Gas price too low
@@ -225,6 +236,7 @@ Total Today: 0.0035 ETH
 ```
 
 Click any transaction to see:
+
 - Full transaction hash
 - Block explorer link
 - Service details
@@ -236,6 +248,7 @@ Click any transaction to see:
 ### Start Conservative
 
 Begin with low limits while learning:
+
 ```
 ✅ Daily: 0.01 ETH
 ✅ Weekly: 0.05 ETH
@@ -245,6 +258,7 @@ Begin with low limits while learning:
 ### Monitor Spending
 
 Check your dashboard daily:
+
 - Review transaction history
 - Verify service charges
 - Adjust limits as needed
@@ -252,6 +266,7 @@ Check your dashboard daily:
 ### Verify Services
 
 Before using a new service:
+
 - Check if it's verified in x402 Registry
 - Read reviews from other users
 - Test with small payments first
@@ -259,6 +274,7 @@ Before using a new service:
 ### Keep Wallet Funded
 
 Maintain sufficient balance:
+
 - Service payment amount
 - Gas fees (buffer ~20%)
 - Emergency reserve
@@ -266,6 +282,7 @@ Maintain sufficient balance:
 ### Review Transaction Hashes
 
 Always verify payments on block explorer:
+
 - Confirms transaction was successful
 - Shows actual cost (including gas)
 - Provides permanent record
@@ -275,6 +292,7 @@ Always verify payments on block explorer:
 ### Scheduled Payments
 
 Coming soon:
+
 - Set up recurring service payments
 - Auto-renew subscriptions
 - Batch process multiple services
@@ -282,6 +300,7 @@ Coming soon:
 ### Multi-Signature Support
 
 For organizations:
+
 - Require multiple approvals
 - Set role-based limits
 - Audit trail for all transactions
@@ -289,6 +308,7 @@ For organizations:
 ### Payment Routing
 
 Optimize costs:
+
 - Automatically select cheapest chain
 - Use L2 solutions when available
 - Bridge tokens as needed
@@ -298,6 +318,7 @@ Optimize costs:
 ### "Payment stuck in pending"
 
 **Solution**: Check blockchain explorer
+
 - May need higher gas price
 - Wait for network congestion to clear
 - Contact support if >10 minutes
@@ -305,6 +326,7 @@ Optimize costs:
 ### "Limits keep getting exceeded"
 
 **Solution**: Adjust your limits
+
 ```
 Current: Daily 0.01 ETH
 Usage: 0.015 ETH attempted
@@ -315,6 +337,7 @@ Action: Increase to 0.02 ETH or wait
 ### "Transaction fails immediately"
 
 **Possible causes**:
+
 - Insufficient gas
 - Network congestion
 - Invalid service endpoint

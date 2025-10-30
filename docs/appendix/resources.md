@@ -7,18 +7,22 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Official Links
 
 **Website**
+
 - [jarvis402.xyz](https://jarvis402.xyz) - Main platform
 
 **Documentation**
+
 - This documentation site
 - [Quick Start Guide](../getting-started/quick-start.md)
 - [AI Model Training](../getting-started/ai-model-training.md)
 
 **Community**
+
 - Discord: [discord.gg/jarvis402](https://discord.gg/jarvis402)
 - X: [@jarvis402xyz](https://x.com/jarvis402xyz)
 
 **Support**
+
 - Email: support@jarvis402.xyz
 - Status: [status.jarvis402.xyz](https://status.jarvis402.xyz)
 
@@ -27,18 +31,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Market Data
 
 **DexScreener**
+
 - [dexscreener.com](https://dexscreener.com)
 - DEX trading data and charts
 - Real-time prices and volume
 - Used by Jarvis402 for data
 
 **CoinGecko**
+
 - [coingecko.com](https://coingecko.com)
 - Market cap rankings
 - Price history
 - Token information
 
 **CoinMarketCap**
+
 - [coinmarketcap.com](https://coinmarketcap.com)
 - Alternative market data
 - Token listings
@@ -47,18 +54,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Blockchain Explorers
 
 **Solscan (Solana)**
+
 - [solscan.io](https://solscan.io)
 - Transaction history
 - Wallet analysis
 - Token information
 
 **Etherscan (Ethereum)**
+
 - [etherscan.io](https://etherscan.io)
 - Contract verification
 - Transaction tracking
 - Wallet monitoring
 
 **BscScan (Binance Smart Chain)**
+
 - [bscscan.com](https://bscscan.com)
 - BSC transactions
 - Contract details
@@ -67,18 +77,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ## DEX Platforms
 
 **Pump.fun (Solana)**
+
 - [pump.fun](https://pump.fun)
 - Solana memecoin launches
 - Bonding curve platform
 - Jarvis402 specializes in these tokens
 
 **Raydium (Solana)**
+
 - [raydium.io](https://raydium.io)
 - Solana DEX
 - Where Pump.fun tokens graduate
 - Liquidity pools
 
 **Uniswap (Ethereum)**
+
 - [uniswap.org](https://uniswap.org)
 - Leading Ethereum DEX
 - ERC-20 trading
@@ -89,18 +102,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Cryptocurrency Basics
 
 **Coinbase Learn**
+
 - [coinbase.com/learn](https://coinbase.com/learn)
 - Beginner-friendly
 - Earn crypto while learning
 - Video content
 
 **Binance Academy**
+
 - [academy.binance.com](https://academy.binance.com)
 - Comprehensive tutorials
 - Technical concepts
 - Trading education
 
 **CoinDesk Learn**
+
 - [coindesk.com/learn](https://coindesk.com/learn)
 - Blockchain fundamentals
 - Regular updates
@@ -109,18 +125,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Security & Safety
 
 **How to DYOR**
+
 - Research methodology
 - Red flag identification
 - Information verification
 - Critical thinking
 
 **Rugpull Detection**
+
 - Common scam patterns
 - Contract analysis basics
 - Social engineering awareness
 - Case studies
 
 **Wallet Security**
+
 - Private key management
 - Hardware wallet guides
 - Phishing prevention
@@ -131,24 +150,28 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Crypto News Sites
 
 **CoinDesk**
+
 - [coindesk.com](https://coindesk.com)
 - Industry news
 - Market analysis
 - Regulatory updates
 
 **Cointelegraph**
+
 - [cointelegraph.com](https://cointelegraph.com)
 - Daily news
 - Technical analysis
 - Opinion pieces
 
 **The Block**
+
 - [theblock.co](https://theblock.co)
 - Data-driven reporting
 - Research insights
 - Industry trends
 
 **Decrypt**
+
 - [decrypt.co](https://decrypt.co)
 - Accessible news
 - Cultural coverage
@@ -157,12 +180,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Social Media
 
 **Crypto Twitter**
+
 - Follow reputable analysts
 - Community discussions
 - Real-time news
 - Be skeptical of shills
 
 **Reddit Communities**
+
 - r/CryptoCurrency
 - r/SolanaNFTs
 - Chain-specific subreddits
@@ -173,12 +198,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Portfolio Tracking
 
 **CoinGecko Portfolio**
+
 - Track holdings
 - Performance metrics
 - Multi-chain support
 - Free to use
 
 **DexScreener Portfolio**
+
 - DEX-specific tracking
 - Real-time updates
 - Token performance
@@ -187,12 +214,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Alert Systems
 
 **Token Alerts**
+
 - Price notifications
 - Volume spikes
 - Liquidity changes
 - Transaction monitoring
 
 **Wallet Tracking**
+
 - Whale movement alerts
 - Large transfers
 - DEX interactions
@@ -203,12 +232,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Smart Contract Analysis
 
 **Contract Readers**
+
 - Read contract code
 - Function analysis
 - Permission checking
 - Ownership verification
 
 **Token Sniffers**
+
 - Automated contract checking
 - Common vulnerability detection
 - Honeypot identification
@@ -217,6 +248,7 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### APIs & Data
 
 **Public APIs**
+
 - DexScreener API
 - CoinGecko API
 - Blockchain node APIs
@@ -227,12 +259,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Discord Servers
 
 **Jarvis402 Official**
+
 - [discord.gg/jarvis402](https://discord.gg/jarvis402)
 - User support
 - Strategy discussion
 - Community alpha
 
 **Trading Communities**
+
 - Strategy sharing
 - Market discussion
 - Due diligence collaboration
@@ -241,12 +275,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Telegram Groups
 
 **Pump.fun Communities**
+
 - Launch announcements
 - Community building
 - Real-time discussions
 - DYOR collaboration
 
 **Trading Groups**
+
 - Technical analysis
 - Fundamental discussion
 - Risk management
@@ -257,18 +293,21 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### On-Chain Analytics
 
 **Bubblemaps**
+
 - Visualize holder distribution
 - Connection analysis
 - Whale identification
 - Cluster detection
 
 **Nansen**
+
 - Professional analytics
 - Smart money tracking
 - Token flow analysis
 - Paid service
 
 **Dune Analytics**
+
 - Custom blockchain queries
 - Community dashboards
 - Data visualization
@@ -277,12 +316,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Automation
 
 **Trading Bots**
+
 - Automated execution
 - Limit orders
 - Stop losses
 - DCA strategies
 
 **Alert Bots**
+
 - Telegram notifications
 - Discord alerts
 - Email updates
@@ -293,6 +334,7 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Position Sizing Calculators
 
 **Risk Calculators**
+
 - Position sizing tools
 - Risk-reward ratios
 - Portfolio allocation
@@ -301,6 +343,7 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Trading Psychology
 
 **Educational Content**
+
 - FOMO management
 - Emotional discipline
 - Trading psychology
@@ -311,12 +354,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Tax Resources
 
 **Crypto Tax Software**
+
 - Transaction tracking
 - Tax calculation
 - Report generation
 - Jurisdiction-specific
 
 **Tax Guides**
+
 - Crypto tax basics
 - Reporting requirements
 - Deduction strategies
@@ -325,6 +370,7 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Regulatory News
 
 **Regulatory Updates**
+
 - SEC announcements
 - International regulations
 - Compliance requirements
@@ -335,11 +381,13 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Books
 
 **"The Bitcoin Standard"**
+
 - Saifedean Ammous
 - Cryptocurrency foundations
 - Economic principles
 
 **"Mastering Ethereum"**
+
 - Andreas Antonopoulos
 - Technical deep dive
 - Smart contracts
@@ -347,12 +395,14 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 ### Blogs & Newsletters
 
 **Bankless**
+
 - [bankless.com](https://bankless.com)
 - DeFi education
 - Strategy guides
 - Newsletter
 
 **The Defiant**
+
 - [thedefiant.io](https://thedefiant.io)
 - DeFi news
 - Analysis

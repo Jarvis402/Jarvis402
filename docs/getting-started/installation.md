@@ -40,6 +40,7 @@ Jarvis402 works best on:
 ### Recommended Setup
 
 For the best experience:
+
 - Use a modern browser on the latest version
 - Enable JavaScript and cookies
 - Use a screen resolution of at least 1280x720
@@ -55,6 +56,7 @@ For the best experience:
 ## No Account Required
 
 Jarvis402 does not require:
+
 - Account registration
 - Email verification
 - Credit card information
@@ -82,6 +84,7 @@ To ensure fair usage and system stability, Jarvis402 implements:
 ### Cannot Access Website
 
 If you can't reach the website:
+
 1. Check your internet connection
 2. Try a different browser
 3. Clear your browser cache and cookies
@@ -91,6 +94,7 @@ If you can't reach the website:
 ### Page Not Loading
 
 If the page loads but doesn't work properly:
+
 1. Ensure JavaScript is enabled in your browser
 2. Disable ad blockers or privacy extensions
 3. Try using an incognito/private window
@@ -100,6 +104,7 @@ If the page loads but doesn't work properly:
 ### Chat Interface Not Working
 
 If the chat interface doesn't respond:
+
 1. Refresh the page
 2. Check your internet connection
 3. Try a different browser

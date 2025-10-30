@@ -24,7 +24,7 @@ export default function MatrixRain() {
     const handleMouseMove = (e) => {
       mousePos = {
         x: e.clientX / window.innerWidth,
-        y: e.clientY / window.innerHeight
+        y: e.clientY / window.innerHeight,
       };
     };
     window.addEventListener('mousemove', handleMouseMove);
@@ -80,7 +80,7 @@ export default function MatrixRain() {
         const brightnessBoost = Math.max(0, 1 - mouseDistanceX * 2) * 0.4;
 
         // Use logo-inspired blue gradient color with mouse-based brightness
-        const finalOpacity = (opacity * 0.7) + brightnessBoost;
+        const finalOpacity = opacity * 0.7 + brightnessBoost;
         // Mix between bright cyan and royal blue based on position
         const colorMix = y / canvas.height;
         const r = Math.floor(0 * (1 - colorMix) + 0 * colorMix);
@@ -89,7 +89,7 @@ export default function MatrixRain() {
         ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${Math.min(1, finalOpacity)})`;
 
         // Draw character with slight size variation based on perspective
-        const sizeMultiplier = 1 + (distanceFromCenter * 0.3 * Math.abs(perspectiveX) / 15);
+        const sizeMultiplier = 1 + (distanceFromCenter * 0.3 * Math.abs(perspectiveX)) / 15;
         ctx.save();
         ctx.translate(x, y);
         ctx.scale(sizeMultiplier, 1);
@@ -97,7 +97,7 @@ export default function MatrixRain() {
         ctx.restore();
 
         // Adjust speed based on mouse Y position
-        const speedMultiplier = 1 + (perspectiveY / 10);
+        const speedMultiplier = 1 + perspectiveY / 10;
         const currentSpeed = dropSpeeds[i] * speedMultiplier;
 
         // Reset drop to top after it passes the screen
@@ -123,7 +123,7 @@ export default function MatrixRain() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none opacity-40"
+      className="pointer-events-none fixed inset-0 opacity-40"
       style={{ zIndex: 1 }}
     />
   );

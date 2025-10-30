@@ -37,10 +37,13 @@ const eslintConfig = defineConfig([
 
       // General rules
       'no-console': ['warn', { allow: ['warn', 'error'] }],
-      'no-unused-vars': ['warn', {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_'
-      }],
+      'no-unused-vars': [
+        'warn',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+        },
+      ],
       'prefer-const': 'warn',
       'no-var': 'error',
 
@@ -50,9 +53,9 @@ const eslintConfig = defineConfig([
       'no-duplicate-imports': 'error',
 
       // Formatting (handled by Prettier)
-      'indent': 'off',
-      'quotes': 'off',
-      'semi': 'off',
+      indent: 'off',
+      quotes: 'off',
+      semi: 'off',
       'comma-dangle': 'off',
       'max-len': 'off',
 

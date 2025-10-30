@@ -7,6 +7,7 @@ This guide walks you through making your first autonomous payment and understand
 ### 1. Connect Your Wallet
 
 First, connect a Web3 wallet:
+
 - Click "Connect Wallet" button
 - Choose MetaMask, Coinbase Wallet, or another provider
 - Approve the connection
@@ -22,6 +23,7 @@ Tell Jarvis402 what you need:
 ### 3. Review Payment
 
 Jarvis402 will show you:
+
 ```
 Found: WeatherAPI Premium
 Cost: 0.001 ETH (~$2.50)
@@ -31,6 +33,7 @@ Cost: 0.001 ETH (~$2.50)
 ### 4. Automatic Processing
 
 Payment happens automatically:
+
 - Transaction submitted
 - Confirmed in ~2 seconds
 - Service accessed
@@ -78,6 +81,7 @@ Jarvis402 builds the transaction:
 ### Step 4: Signing & Submission
 
 Your wallet automatically:
+
 - Signs the transaction
 - Submits to blockchain
 - Returns transaction hash
@@ -98,6 +102,7 @@ Block: Waiting...
 ### Step 6: Service Access
 
 With payment confirmed:
+
 1. Jarvis402 retries service request
 2. Includes payment proof in headers
 3. Service validates payment
@@ -110,6 +115,7 @@ With payment confirmed:
 Pay with blockchain's native currency:
 
 **Ethereum**
+
 ```
 Amount: 0.001 ETH
 Gas: ~0.00015 ETH
@@ -117,6 +123,7 @@ Total: 0.00115 ETH
 ```
 
 **Solana**
+
 ```
 Amount: 0.01 SOL
 Gas: ~0.000005 SOL
@@ -128,6 +135,7 @@ Total: 0.010005 SOL
 Pay with stablecoins or other tokens:
 
 **USDC**
+
 ```
 Amount: 2.50 USDC
 Gas: 0.00015 ETH
@@ -137,6 +145,7 @@ Note: Gas still paid in native token
 ### Automatic Chain Selection
 
 Jarvis402 automatically uses the correct chain:
+
 - Service specifies accepted chains
 - Jarvis402 selects cheapest/fastest
 - Prompts wallet to switch if needed
@@ -146,6 +155,7 @@ Jarvis402 automatically uses the correct chain:
 ### Service Fee
 
 What the service charges:
+
 ```
 Base Price: 0.001 ETH
 Per-request fee determined by service
@@ -154,6 +164,7 @@ Per-request fee determined by service
 ### Gas Fee
 
 Blockchain transaction cost:
+
 ```
 Gas Price: 20 gwei
 Gas Limit: 21,000
@@ -352,6 +363,7 @@ Options:
 ### Verify Services
 
 Before first use:
+
 - Check service verification status
 - Read reviews from other users
 - Test with small payment first
@@ -367,6 +379,7 @@ Before first use:
 ### Recognize Scams
 
 Red flags:
+
 - Unverified services
 - Unusually low prices
 - Requests for private keys
@@ -377,6 +390,7 @@ Red flags:
 ### Batch Payments
 
 Coming soon:
+
 ```
 "Pay for 10 API requests in advance"
 ```
@@ -384,6 +398,7 @@ Coming soon:
 ### Scheduled Payments
 
 Coming soon:
+
 ```
 "Set up recurring weekly payment"
 ```
@@ -391,6 +406,7 @@ Coming soon:
 ### Multi-Chain Routing
 
 Coming soon:
+
 - Auto-select cheapest chain
 - Bridge tokens when needed
 - Optimize for speed vs cost
@@ -419,6 +435,7 @@ Export: [CSV] [JSON]
 ### Payment Stuck
 
 **Solution**:
+
 1. Check block explorer
 2. Verify transaction is pending
 3. Wait 5-10 minutes
@@ -427,6 +444,7 @@ Export: [CSV] [JSON]
 ### Wrong Amount Charged
 
 **Solution**:
+
 1. Check transaction on explorer
 2. Verify service pricing
 3. Account for gas fees
@@ -435,6 +453,7 @@ Export: [CSV] [JSON]
 ### Service Didn't Deliver
 
 **Solution**:
+
 1. Save transaction hash
 2. Contact service support
 3. Request refund if eligible

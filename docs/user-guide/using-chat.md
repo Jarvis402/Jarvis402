@@ -14,17 +14,20 @@ This comprehensive guide will help you master Jarvis402's chat interface and get
 ### Interface Layout
 
 **Chat Area** (Center)
+
 - Your messages appear on the right
 - AI responses stream on the left
 - Scroll to see conversation history
 
 **Input Section** (Bottom)
+
 - Main text input for your questions
 - Optional contract address field
 - Send button (or press Enter)
 - Cooldown timer when active
 
 **Conversation Starters** (Bottom)
+
 - Quick-start suggestion buttons
 - Click to instantly send common queries
 
@@ -33,11 +36,13 @@ This comprehensive guide will help you master Jarvis402's chat interface and get
 ### Asking Your First Question
 
 Simply type and send:
+
 ```
 What are the trending memecoins on Solana today?
 ```
 
 The AI will:
+
 1. Show "Jarvis402 is thinking..."
 2. Begin streaming the response
 3. Display formatted, detailed answer
@@ -46,16 +51,19 @@ The AI will:
 ### Providing Contract Addresses
 
 **Option 1: Dedicated Field**
+
 - Paste address in "Token Contract Address" field
 - Type your question in main input
 - Send both together
 
 **Option 2: In Message**
+
 - Include address directly in your message
 - AI automatically detects it
 - Works the same way
 
 Example:
+
 ```
 Analyze this token: 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU
 ```
@@ -63,6 +71,7 @@ Analyze this token: 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU
 ### Using Conversation Starters
 
 Click any starter button to instantly ask:
+
 - "What are the current trending memecoins?"
 - "How do I identify a potential rugpull?"
 - "Explain pump.fun token graduation"
@@ -88,6 +97,7 @@ AI: [Compares both tokens from earlier]
 ```
 
 **Context Scope**
+
 - Remembers entire session
 - References previous tokens
 - Builds on earlier explanations
@@ -111,6 +121,7 @@ AI: [Suggests what to look for/avoid]
 ### Asking Multiple Questions
 
 **Sequential Approach**
+
 ```
 What's the current price of [token]?
 [Wait for response]
@@ -119,6 +130,7 @@ What about its liquidity?
 ```
 
 **Batch Approach** (Better!)
+
 ```
 For [token], tell me:
 1. Current price
@@ -147,6 +159,7 @@ The AI will analyze all and provide side-by-side comparison.
 ### General Education
 
 Learn about crypto concepts:
+
 - "Explain what a bonding curve is"
 - "How does liquidity locking work?"
 - "What makes a token a honeypot?"
@@ -157,6 +170,7 @@ Perfect for building knowledge!
 ### Token-Specific Analysis
 
 Deep dive into specific tokens:
+
 - "Full analysis of [contract address]"
 - "Risk assessment for [token name]"
 - "Holder distribution for [address]"
@@ -167,6 +181,7 @@ Provide addresses for best results.
 ### Market Intelligence
 
 Current market information:
+
 - "What's hot on Pump.fun today?"
 - "Show me tokens under 1M market cap"
 - "Recent Solana token launches"
@@ -177,6 +192,7 @@ The AI searches the web for latest data.
 ### Risk Evaluation
 
 Security-focused questions:
+
 - "Check if [address] is a rugpull"
 - "Contract security review: [address]"
 - "What are the red flags for [token]?"
@@ -187,6 +203,7 @@ Critical before investing!
 ### Historical Queries
 
 Past performance and trends:
+
 - "How did [token] perform last week?"
 - "Price history of [address]"
 - "Has [token] recovered from the dip?"
@@ -199,11 +216,13 @@ Useful for pattern recognition.
 ### Be Specific
 
 **Vague** ❌
+
 ```
 Tell me about tokens
 ```
 
 **Specific** ✅
+
 ```
 Analyze the security risks of [contract address]
 and tell me if the liquidity is locked
@@ -212,11 +231,13 @@ and tell me if the liquidity is locked
 ### Include Context
 
 **Minimal Context** ❌
+
 ```
 Is it good?
 ```
 
 **Rich Context** ✅
+
 ```
 I'm looking at [token] for a short-term trade.
 Is the current risk level acceptable for a 2-3 day hold?
@@ -225,12 +246,14 @@ Is the current risk level acceptable for a 2-3 day hold?
 ### Structure Complex Requests
 
 **Unstructured** ❌
+
 ```
 Tell me everything about this token and compare it to similar ones
 and check if it's safe and what the price might do
 ```
 
 **Structured** ✅
+
 ```
 For [contract address]:
 1. Current risk level
@@ -244,6 +267,7 @@ For [contract address]:
 You don't need commands or special syntax:
 
 **Robotic** (Works but unnecessary)
+
 ```
 ANALYZE TOKEN: [address]
 PARAMETERS: risk, liquidity, holders
@@ -251,6 +275,7 @@ OUTPUT: detailed
 ```
 
 **Natural** (Preferred)
+
 ```
 Can you check out this token and let me know
 if it's safe? Especially concerned about liquidity.
@@ -262,18 +287,21 @@ if it's safe? Especially concerned about liquidity.
 ### Reading AI Answers
 
 **Executive Summary**
+
 - Usually at the top
 - One-line verdict
 - Risk score
 - Key finding
 
 **Detailed Analysis**
+
 - Organized by sections
 - Metrics with explanations
 - Visual indicators (🟢🟡🔴)
 - Source citations
 
 **Recommendations**
+
 - Action items
 - What to watch
 - Next steps
@@ -284,18 +312,22 @@ if it's safe? Especially concerned about liquidity.
 The AI uses rich formatting:
 
 **Headers** organize sections
+
 ```markdown
 ## Risk Assessment
+
 ### Red Flags
 ```
 
 **Lists** for readability
+
 - Bullet points for features
 - Numbered lists for steps
 
 **Emphasis**
+
 - **Bold** = important info
-- *Italic* = emphasis
+- _Italic_ = emphasis
 - `Code` = addresses/technical
 
 **Tables** for data
@@ -311,17 +343,20 @@ The AI uses rich formatting:
 Quick status understanding:
 
 **Risk Levels**
+
 - 🟢 LOW - Relatively safe
 - 🟡 MEDIUM - Proceed with caution
 - 🔴 HIGH - Significant risks
 
 **Status Flags**
+
 - ✅ Positive indicator
 - ⚠️ Warning sign
 - 🚩 Critical red flag
 - ❌ Negative finding
 
 **Trends**
+
 - 📈 Increasing/Growing
 - 📉 Decreasing/Declining
 - ➡️ Stable/Unchanged
@@ -331,12 +366,14 @@ Quick status understanding:
 ### The 50-Second Cooldown
 
 After sending a message:
+
 1. Countdown timer appears
 2. Input fields are disabled
 3. Send button shows remaining time
 4. Must wait before next message
 
 **Why?**
+
 - Ensures fair access for all users
 - Prevents system overload
 - Maintains response quality
@@ -347,12 +384,14 @@ After sending a message:
 Maximize each query:
 
 **Plan Ahead**
+
 - Think through your question before sending
 - Include all relevant details
 - Ask compound questions
 - Use the waiting time to read responses
 
 **Batch Questions**
+
 ```
 Instead of 3 separate messages, ask:
 "For [token]: check risk, analyze holders, and
@@ -360,6 +399,7 @@ compare liquidity to similar tokens"
 ```
 
 **Read Thoroughly**
+
 - Responses are comprehensive
 - AI anticipates follow-ups
 - Info you need might already be there
@@ -367,6 +407,7 @@ compare liquidity to similar tokens"
 ### Cooldown Persistence
 
 The cooldown:
+
 - ✅ Tracks in browser storage
 - ✅ Persists across refreshes
 - ✅ Works in multiple tabs
@@ -417,22 +458,27 @@ Get perspective-specific insights.
 ## Common Mistakes to Avoid
 
 ### Mistake #1: Vague Questions
+
 ❌ "What do you think?"
 ✅ "What's your risk assessment of [contract address]?"
 
 ### Mistake #2: Missing Addresses
+
 ❌ "Check if CoolCoin is safe"
 ✅ "Check if [contract address] is safe"
 
 ### Mistake #3: Rapid-Fire Questions
+
 ❌ Sending 5 questions in separate messages
 ✅ Combining into one comprehensive question
 
 ### Mistake #4: Ignoring Context
+
 ❌ Starting fresh each time
 ✅ Building on previous conversation
 
 ### Mistake #5: Not Reading Full Responses
+
 ❌ Skimming and asking what was already answered
 ✅ Reading thoroughly before follow-ups
 
@@ -452,22 +498,26 @@ Get perspective-specific insights.
 ## Troubleshooting
 
 ### AI Not Responding
+
 - Wait 30 seconds (processing may take time)
 - Check internet connection
 - Refresh page if stuck >1 minute
 - Try simpler query
 
 ### Incomplete Responses
+
 - Ask "Can you provide more details on [aspect]?"
 - Request specific section: "Expand on the risk assessment"
 - Rephrase question for clarity
 
 ### Unclear Answers
+
 - "Can you explain that more simply?"
 - "What does [term] mean?"
 - "Give me an example"
 
 ### Wrong Token
+
 - Double-check contract address
 - Verify correct blockchain
 - Try token name + contract address
@@ -475,12 +525,14 @@ Get perspective-specific insights.
 ## Privacy & Security
 
 ### Your Conversations
+
 - Not stored on servers
 - Not logged or tracked
 - Completely anonymous
 - Refresh to clear history
 
 ### Safe Practices
+
 - Never share private keys
 - Don't reveal wallet balances
 - Be cautious with personal info

@@ -5,6 +5,7 @@ Jarvis402 is a fully managed, cloud-based platform. There are no configuration f
 ## About Jarvis402 Platform
 
 Jarvis402 runs on a sophisticated infrastructure designed for:
+
 - **High Availability**: 99.9% uptime guarantee
 - **Global Performance**: Distributed across multiple regions
 - **Automatic Scaling**: Handles traffic spikes seamlessly
@@ -30,6 +31,7 @@ To ensure fair usage and optimal performance for all users:
 - **Fair Usage Policy**: Prevents abuse while ensuring availability
 
 This rate limiting ensures:
+
 - System stability during high traffic
 - Equal access for all users
 - Protection against API abuse
@@ -67,6 +69,7 @@ For the best experience with Jarvis402:
 ### Privacy Settings
 
 Jarvis402 respects your privacy:
+
 - No tracking cookies
 - No personal data collection
 - No conversation storage
@@ -77,6 +80,7 @@ Jarvis402 respects your privacy:
 ### Screen Resolution
 
 Recommended resolutions:
+
 - **Desktop**: 1920x1080 or higher
 - **Laptop**: 1366x768 or higher
 - **Tablet**: 1024x768 or higher
@@ -85,6 +89,7 @@ Recommended resolutions:
 ### Color Mode
 
 Jarvis402 features:
+
 - **Dark Theme**: Default futuristic dark interface
 - **High Contrast**: Optimized for readability
 - **Green Accents**: Signature Matrix-inspired design
@@ -137,27 +142,32 @@ Jarvis402 is available globally with optimized performance in:
 ## Supported Languages
 
 Currently supported:
+
 - **English**: Full support
 - **Additional Languages**: Coming soon
 
 ## Browser-Specific Features
 
 ### Chrome/Edge
+
 - Full WebGL support for animations
 - Hardware acceleration
 - Progressive Web App (PWA) support
 
 ### Firefox
+
 - Enhanced privacy mode compatible
 - Full feature support
 
 ### Safari
+
 - Optimized for macOS and iOS
 - Full mobile support
 
 ## Mobile App
 
 Currently, Jarvis402 is web-based only:
+
 - Fully responsive mobile web interface
 - Native mobile apps: Coming in future updates
 - Add to Home Screen: Available as PWA
@@ -175,13 +185,13 @@ Violations may result in temporary access restrictions.
 
 ## Technical Requirements Summary
 
-| Requirement | Specification |
-|-------------|---------------|
-| Browser | Chrome 90+, Firefox 88+, Safari 14+, Edge 90+ |
-| JavaScript | Required |
-| Internet Speed | 1 Mbps minimum |
-| Screen Resolution | 1280x720 minimum |
-| Device | Desktop, laptop, tablet, or smartphone |
+| Requirement       | Specification                                 |
+| ----------------- | --------------------------------------------- |
+| Browser           | Chrome 90+, Firefox 88+, Safari 14+, Edge 90+ |
+| JavaScript        | Required                                      |
+| Internet Speed    | 1 Mbps minimum                                |
+| Screen Resolution | 1280x720 minimum                              |
+| Device            | Desktop, laptop, tablet, or smartphone        |
 
 ## Getting Help
 

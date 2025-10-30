@@ -27,6 +27,7 @@ https://jarvis402.xyz
 ```
 
 You'll see the landing page featuring:
+
 - Hero section explaining autonomous AI payments
 - Features showcasing x402 protocol capabilities
 - Statistics (0% fees, ~2s settlement, blockchain agnostic)
@@ -37,6 +38,7 @@ You'll see the landing page featuring:
 Click the **"Launch App"** button in the navigation or hero section.
 
 The app interface features:
+
 - Clean, modern design with orange accents
 - AI chat interface powered by Google Gemini
 - Message input area for natural language requests
@@ -122,6 +124,7 @@ For safety, set spending limits before making payments:
 3. **Monthly Limit**: Maximum per 30 days
 
 Example limits for testing:
+
 - Daily: 0.01 ETH
 - Weekly: 0.05 ETH
 - Monthly: 0.2 ETH
@@ -137,6 +140,7 @@ I need access to premium weather data for the next 7 days in San Francisco
 ```
 
 The AI will:
+
 1. Find an x402-compatible weather service
 2. Show you the pricing
 3. Request confirmation
@@ -171,6 +175,7 @@ Here's your 7-day forecast for San Francisco:
 ### Transaction History
 
 Each payment shows:
+
 - Service name
 - Amount paid
 - Transaction hash (clickable)
@@ -192,6 +197,7 @@ Each payment shows:
 ### 3. Monitor Spending
 
 Check your transaction history regularly to:
+
 - Track spending against limits
 - Verify service costs
 - Review transaction hashes
@@ -199,6 +205,7 @@ Check your transaction history regularly to:
 ### 4. Verify Services
 
 Before using a new x402 service:
+
 - Check if it's verified in the registry
 - Read reviews from other users
 - Start with small test payments
@@ -206,6 +213,7 @@ Before using a new x402 service:
 ### 5. Keep Wallet Funded
 
 Ensure you have enough for:
+
 - Service payment costs
 - Blockchain gas fees
 - Small buffer for multiple requests
@@ -219,6 +227,7 @@ A: Jarvis402 uses your browser wallet (MetaMask, etc.). You'll be prompted to co
 ### Q: How much does it cost?
 
 A: Jarvis402 charges **0% platform fees**. You only pay:
+
 - Service provider fees (varies by service)
 - Blockchain gas fees (typically $0.01-$1.00)
 
@@ -233,6 +242,7 @@ A: Once submitted to the blockchain, transactions cannot be cancelled. However, 
 ### Q: Which blockchains are supported?
 
 A: Jarvis402 is blockchain agnostic and supports:
+
 - Ethereum
 - Solana
 - Any x402-compatible chain

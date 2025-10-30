@@ -7,18 +7,21 @@ Complete documentation for Jarvis402, an autonomous AI payment agent built on th
 The documentation is organized into comprehensive sections covering every aspect of Jarvis402:
 
 ### Getting Started
+
 - **Installation Guide** - Step-by-step setup instructions
 - **Configuration** - Environment variables and API keys
 - **Quick Start** - Get running in 5 minutes
 - **x402 Protocol Overview** - Understanding the payment protocol
 
 ### Core Concepts
+
 - **Autonomous Payments** - How Jarvis402 handles payments automatically
 - **HTTP 402 Status Code** - The foundation of the x402 protocol
 - **Blockchain Integration** - Multi-chain payment support
 - **Payment Flow** - Step-by-step transaction process
 
 ### Features
+
 - **AI Chat Interface** - Conversational payment agent
 - **Service Discovery** - Finding x402-compatible APIs
 - **Spending Limits** - User-controlled payment caps
@@ -26,30 +29,35 @@ The documentation is organized into comprehensive sections covering every aspect
 - **Multi-Chain Support** - Ethereum, Solana, and more
 
 ### Architecture
+
 - **Project Structure** - File organization and layout
 - **API Routes** - Backend endpoints documentation
 - **Frontend Components** - UI component overview
 - **Payment Processing** - Transaction handling system
 
 ### User Guide
+
 - **Accessing Services** - How to request paid resources
 - **Setting Limits** - Managing spending controls
 - **Monitoring Transactions** - Tracking your payments
 - **Best Practices** - Tips for safe autonomous payments
 
 ### Integration
+
 - **x402 Protocol** - Implementing the payment standard
 - **Wallet Connection** - Blockchain wallet integration
 - **Facilitator Endpoints** - Payment verification services
 - **Service Providers** - Building x402-compatible APIs
 
 ### Deployment
+
 - **Vercel Deployment** - Deploy to Vercel (recommended)
 - **Environment Variables** - Production configuration
 - **Domain Setup** - Custom domain configuration
 - **Security** - Best practices for production
 
 ### API Reference
+
 - **Chat API** - AI agent endpoint documentation
 - **Payment API** - Transaction handling endpoints
 - **Request Format** - API request structure
@@ -57,6 +65,7 @@ The documentation is organized into comprehensive sections covering every aspect
 - **Error Handling** - Error codes and solutions
 
 ### x402 Protocol
+
 - **Protocol Specification** - Technical details
 - **Payment Headers** - HTTP header requirements
 - **Verification Flow** - Payment validation process
@@ -64,12 +73,14 @@ The documentation is organized into comprehensive sections covering every aspect
 - **Fee Structure** - Gas fees and costs
 
 ### Troubleshooting
+
 - **Common Issues** - Frequent problems and solutions
 - **Payment Failures** - Why transactions might fail
 - **Blockchain Errors** - Network-specific issues
 - **Debug Mode** - Troubleshooting tools
 
 ### Appendix
+
 - **Glossary** - Technical terms and definitions
 - **FAQ** - Frequently asked questions
 - **Resources** - External links and documentation

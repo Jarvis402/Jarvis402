@@ -206,21 +206,25 @@ Simplified version of a contract used for testing purposes.
 ### Using Terms in Context
 
 **"I set my daily spending limit to 0.1 ETH"**
+
 - Spending limit: maximum autonomous spending
 - ETH: Ethereum cryptocurrency
 - Daily: 24-hour period
 
 **"The transaction settled in 2 seconds"**
+
 - Transaction: blockchain payment
 - Settled: confirmed and finalized
 - 2 seconds: settlement time
 
 **"Jarvis found an x402-compatible weather API"**
+
 - x402-compatible: accepts x402 protocol payments
 - API: web service providing data
 - Weather API: specific service type
 
 **"Check the transaction hash on Etherscan"**
+
 - Transaction hash: unique payment identifier
 - Etherscan: blockchain explorer website
 - Verification of on-chain activity
@@ -238,4 +242,4 @@ Missing a term? Suggest additions at: [feedback@jarvis402.xyz](mailto:feedback@j
 
 ---
 
-*This glossary is continuously updated with new terms as the x402 ecosystem evolves.*
+_This glossary is continuously updated with new terms as the x402 ecosystem evolves._

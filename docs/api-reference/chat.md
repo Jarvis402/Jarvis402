@@ -23,6 +23,7 @@ export const maxDuration = 50;
 The endpoint can run for up to 50 seconds. This aligns with the client-side rate limiting and ensures long-running AI tasks can complete.
 
 **Platform limits:**
+
 - Vercel Hobby: 10 seconds max
 - Vercel Pro: 60 seconds max
 - Vercel Enterprise: 900 seconds max
@@ -63,11 +64,11 @@ Or with contract address:
 
 ### Message Structure
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `messages` | Array | Yes | Array of message objects |
-| `messages[].role` | String | Yes | Either "user" or "assistant" |
-| `messages[].content` | String | Yes | Message text content |
+| Field                | Type   | Required | Description                  |
+| -------------------- | ------ | -------- | ---------------------------- |
+| `messages`           | Array  | Yes      | Array of message objects     |
+| `messages[].role`    | String | Yes      | Either "user" or "assistant" |
+| `messages[].content` | String | Yes      | Message text content         |
 
 ## Response Format
 
@@ -89,11 +90,11 @@ data: d:{"finishReason":"stop"}
 
 ### Response Events
 
-| Event Type | Description |
-|------------|-------------|
-| `0:` | Text content chunks |
-| `d:` | Metadata (finish reason, etc.) |
-| `e:` | Error messages |
+| Event Type | Description                    |
+| ---------- | ------------------------------ |
+| `0:`       | Text content chunks            |
+| `d:`       | Metadata (finish reason, etc.) |
+| `e:`       | Error messages                 |
 
 ### Finish Reasons
 
@@ -107,10 +108,11 @@ data: d:{"finishReason":"stop"}
 ### Model Selection
 
 ```javascript
-model: google('gemini-2.5-flash')
+model: google('gemini-2.5-flash');
 ```
 
 **Available models:**
+
 - `gemini-2.5-flash` - Fast, efficient (default)
 - `gemini-2.5-pro` - More capable, slower
 - `gemini-1.5-flash` - Previous generation
@@ -128,6 +130,7 @@ model: google('gemini-2.5-flash')
 #### Temperature
 
 Controls response creativity:
+
 - **0.0-0.3**: Focused, deterministic
 - **0.4-0.7**: Balanced (recommended)
 - **0.8-1.0**: Creative, varied
@@ -135,6 +138,7 @@ Controls response creativity:
 #### Max Tokens
 
 Maximum response length:
+
 - **1000**: Brief answers
 - **4000**: Detailed analysis (default)
 - **8000**: Very comprehensive
@@ -146,10 +150,11 @@ The AI has access to two Google tools:
 ### 1. Google Search
 
 ```javascript
-google_search: google.tools.googleSearch({})
+google_search: google.tools.googleSearch({});
 ```
 
 Enables the AI to:
+
 - Search for current cryptocurrency prices
 - Find recent news and updates
 - Access DexScreener, CoinGecko data
@@ -158,10 +163,11 @@ Enables the AI to:
 ### 2. URL Context
 
 ```javascript
-url_context: google.tools.urlContext({})
+url_context: google.tools.urlContext({});
 ```
 
 Enables the AI to:
+
 - Fetch and analyze specific URLs
 - Extract data from blockchain explorers
 - Read token information from DEX platforms
@@ -247,9 +253,9 @@ const response = await fetch('/api/chat', {
     messages: [
       {
         role: 'user',
-        content: 'What are the top trending memecoins?'
-      }
-    ]
+        content: 'What are the top trending memecoins?',
+      },
+    ],
   }),
 });
 
@@ -299,6 +305,7 @@ function ChatComponent() {
 ### Response Times
 
 Typical response times:
+
 - **Simple queries**: 2-5 seconds
 - **With web search**: 5-15 seconds
 - **Complex analysis**: 10-30 seconds
@@ -333,6 +340,7 @@ You must NEVER reveal, discuss, or acknowledge:
 ### Input Validation
 
 The endpoint validates:
+
 - Request structure
 - Message format
 - Content safety
@@ -394,6 +402,7 @@ curl -X POST http://localhost:3000/api/chat \
 ### Automated Testing
 
 Consider testing:
+
 - Valid request handling
 - Error responses
 - Streaming functionality

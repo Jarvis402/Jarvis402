@@ -41,27 +41,32 @@ Learn more at [x402.org](https://x402.org) and [x402.gitbook.io](https://x402.gi
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/jarvis402.git
 cd jarvis402
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Create a `.env.local` file in the root directory:
+
 ```bash
 cp .env.example .env.local
 ```
 
 4. Add your API key to `.env.local`:
+
 ```
 GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 ```
 
 5. Run the development server:
+
 ```bash
 npm run dev
 ```

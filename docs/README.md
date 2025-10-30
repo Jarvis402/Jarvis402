@@ -46,11 +46,13 @@ Ready to use autonomous AI payments? Choose your path:
 This documentation is organized into the following sections:
 
 ### Getting Started
+
 - [Quick Start](getting-started/quick-start.md) - Start using Jarvis402 in minutes
 - [Installation](getting-started/installation.md) - Detailed installation steps
 - [Configuration](getting-started/configuration.md) - Setup wallets and spending limits
 
 ### Appendix
+
 - [FAQ](appendix/faq.md) - Frequently asked questions
 - [Glossary](appendix/glossary.md) - Key terms and definitions
 - [Resources](appendix/resources.md) - External links and tools
@@ -92,12 +94,14 @@ Jarvis402 is built with modern web technologies and blockchain infrastructure:
 ## Use Cases
 
 ### For Users
+
 - **AI Developers**: Build agents that can pay for API access autonomously
 - **Researchers**: Access premium datasets and academic APIs on-demand
 - **Creators**: Use paid APIs without managing subscriptions
 - **Web3 Enthusiasts**: Experience the future of internet-native payments
 
 ### For Service Providers
+
 - **API Monetization**: Instantly monetize your API without auth infrastructure
 - **Micropayments**: Enable pay-per-use pricing models
 - **Reduced Friction**: Remove account creation and subscription barriers

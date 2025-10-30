@@ -5,9 +5,11 @@ Comprehensive test suite for all Jarvis402 smart contracts using Hardhat and Cha
 ## Test Files
 
 ### 1. PaymentGateway.test.js
+
 Tests for the core payment processing contract.
 
 **Test Coverage:**
+
 - ✅ Contract deployment and initialization
 - ✅ Native token payments (ETH, MATIC, etc.)
 - ✅ ERC20 token payments
@@ -19,6 +21,7 @@ Tests for the core payment processing contract.
 - ✅ Edge cases and error handling
 
 **Key Test Scenarios:**
+
 - Initiating payments with native and ERC20 tokens
 - Completing payments and fund transfers
 - Preventing double completion
@@ -27,9 +30,11 @@ Tests for the core payment processing contract.
 - Total paid/received tracking
 
 ### 2. SpendingLimits.test.js
+
 Tests for autonomous spending limit management.
 
 **Test Coverage:**
+
 - ✅ Setting spending limits (daily/weekly/monthly)
 - ✅ Spender approval and revocation
 - ✅ Recording spending transactions
@@ -39,6 +44,7 @@ Tests for autonomous spending limit management.
 - ✅ Activation/deactivation functionality
 
 **Key Test Scenarios:**
+
 - Valid and invalid limit configurations
 - Approved spender workflows
 - Exceeding spending limits
@@ -48,9 +54,11 @@ Tests for autonomous spending limit management.
 - Multiple spender management
 
 ### 3. X402Registry.test.js
+
 Tests for the x402 service registry.
 
 **Test Coverage:**
+
 - ✅ Service registration
 - ✅ Service updates by providers
 - ✅ Service activation/deactivation
@@ -61,6 +69,7 @@ Tests for the x402 service registry.
 - ✅ Service discovery
 
 **Key Test Scenarios:**
+
 - Registering services with various configurations
 - Adding Basic/Premium/Enterprise pricing tiers
 - Provider-only service management
@@ -69,9 +78,11 @@ Tests for the x402 service registry.
 - Filtering active/inactive services
 
 ### 4. Jarvis402Token.test.js
+
 Tests for the native J402 token.
 
 **Test Coverage:**
+
 - ✅ Token deployment (name, symbol, supply)
 - ✅ Minting with max supply cap
 - ✅ Token burning
@@ -83,6 +94,7 @@ Tests for the native J402 token.
 - ✅ Reward configuration updates
 
 **Key Test Scenarios:**
+
 - Initial supply minting (100M tokens)
 - Max supply enforcement (1B tokens)
 - Authorized reward distributors
@@ -94,16 +106,19 @@ Tests for the native J402 token.
 ## Running Tests
 
 ### Prerequisites
+
 ```bash
 npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox chai ethers
 ```
 
 ### Run All Tests
+
 ```bash
 npx hardhat test
 ```
 
 ### Run Specific Test File
+
 ```bash
 npx hardhat test test/PaymentGateway.test.js
 npx hardhat test test/SpendingLimits.test.js
@@ -112,11 +127,13 @@ npx hardhat test test/Jarvis402Token.test.js
 ```
 
 ### Run Tests with Coverage
+
 ```bash
 npx hardhat coverage
 ```
 
 ### Run Tests with Gas Reporting
+
 ```bash
 REPORT_GAS=true npx hardhat test
 ```
@@ -126,14 +143,14 @@ REPORT_GAS=true npx hardhat test
 Each test file follows this structure:
 
 ```javascript
-describe("ContractName", function () {
+describe('ContractName', function () {
   // Deployment fixture
   async function deployFixture() {
     // Setup and deployment
   }
 
-  describe("Feature Group", function () {
-    it("Should do something specific", async function () {
+  describe('Feature Group', function () {
+    it('Should do something specific', async function () {
       // Test implementation
     });
   });
@@ -143,13 +160,17 @@ describe("ContractName", function () {
 ## Test Utilities
 
 ### Fixtures
+
 Uses `@nomicfoundation/hardhat-network-helpers` for:
+
 - `loadFixture()` - Efficient test state snapshots
 - `time.increase()` - Fast-forward blockchain time
 - Network state management
 
 ### Assertions
+
 Common Chai assertions used:
+
 - `expect().to.equal()` - Value equality
 - `expect().to.emit()` - Event emission
 - `expect().to.be.revertedWith()` - Error messages
@@ -159,7 +180,9 @@ Common Chai assertions used:
 ## Mock Contracts
 
 ### MockERC20
+
 A simple ERC20 token used for testing token payments:
+
 ```solidity
 contract MockERC20 is ERC20 {
     constructor(string memory name, string memory symbol, uint256 initialSupply)
@@ -172,6 +195,7 @@ contract MockERC20 is ERC20 {
 ## Test Coverage Goals
 
 Target coverage metrics:
+
 - **Line Coverage**: > 95%
 - **Branch Coverage**: > 90%
 - **Function Coverage**: 100%
@@ -180,25 +204,28 @@ Target coverage metrics:
 ## Common Test Patterns
 
 ### Testing Events
+
 ```javascript
-await expect(contract.function())
-  .to.emit(contract, "EventName")
-  .withArgs(arg1, arg2);
+await expect(contract.function()).to.emit(contract, 'EventName').withArgs(arg1, arg2);
 ```
 
 ### Testing Reverts
+
 ```javascript
-await expect(contract.function())
-  .to.be.revertedWith("Error message");
+await expect(contract.function()).to.be.revertedWith('Error message');
 ```
 
 ### Testing Access Control
+
 ```javascript
-await expect(contract.connect(unauthorized).function())
-  .to.be.revertedWithCustomError(contract, "OwnableUnauthorizedAccount");
+await expect(contract.connect(unauthorized).function()).to.be.revertedWithCustomError(
+  contract,
+  'OwnableUnauthorizedAccount'
+);
 ```
 
 ### Time-Based Tests
+
 ```javascript
 await time.increase(24 * 60 * 60); // Fast forward 24 hours
 ```
@@ -206,6 +233,7 @@ await time.increase(24 * 60 * 60); // Fast forward 24 hours
 ## Integration Testing
 
 Consider testing cross-contract interactions:
+
 1. PaymentGateway → X402Registry (recording service requests)
 2. SpendingLimits → PaymentGateway (enforcing limits)
 3. Jarvis402Token → All contracts (reward distribution)
@@ -213,6 +241,7 @@ Consider testing cross-contract interactions:
 ## Security Considerations
 
 Tests verify:
+
 - ✅ Reentrancy protection
 - ✅ Integer overflow/underflow protection
 - ✅ Access control enforcement
@@ -223,6 +252,7 @@ Tests verify:
 ## Continuous Integration
 
 Recommended CI pipeline:
+
 ```yaml
 - Run linter (solhint)
 - Compile contracts

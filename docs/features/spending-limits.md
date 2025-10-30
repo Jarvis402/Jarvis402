@@ -5,6 +5,7 @@ Spending limits are your safety net when using Jarvis402's autonomous payment sy
 ## Overview
 
 Spending limits work in three time periods:
+
 - **Daily**: Maximum spending per 24-hour period
 - **Weekly**: Maximum spending per 7-day period
 - **Monthly**: Maximum spending per 30-day period
@@ -16,6 +17,7 @@ All limits are enforced automatically before any payment is processed.
 ### Hierarchical Structure
 
 Limits must follow this hierarchy:
+
 ```
 Monthly ≥ Weekly ≥ Daily
 
@@ -26,6 +28,7 @@ Monthly: 0.2 ETH   ✓
 ```
 
 Invalid configuration:
+
 ```
 Daily:   0.1 ETH   ❌
 Weekly:  0.05 ETH  (Less than daily!)
@@ -41,6 +44,7 @@ Monthly: 0.2 ETH
 ### Real-Time Enforcement
 
 Before every payment:
+
 ```
 1. Check daily spending + new amount ≤ daily limit
 2. Check weekly spending + new amount ≤ weekly limit
@@ -125,6 +129,7 @@ Use case: Production apps, team usage
 ### Current Usage
 
 Check anytime:
+
 ```
 Daily Limit:   0.01 ETH
 Spent Today:   0.0035 ETH
@@ -136,6 +141,7 @@ Progress: ████░░░░░░ 35%
 ### Spending Trends
 
 View historical data:
+
 ```
 This Week:     0.015 ETH / 0.05 ETH (30%)
 Last Week:     0.022 ETH
@@ -145,6 +151,7 @@ Average/Day:   0.003 ETH
 ### Alerts
 
 Get notified when:
+
 - 80% of any limit reached
 - Limit exceeded (payment rejected)
 - Unusual spending pattern detected
@@ -176,6 +183,7 @@ Note: Doesn't affect already spent amount
 ### Temporary Overrides
 
 Coming soon:
+
 - One-time limit increase
 - Expires after 24 hours
 - Requires additional confirmation
@@ -215,6 +223,7 @@ revokeSpender(jarvis402Address)
 ### On-Chain Security
 
 Benefits of smart contract limits:
+
 - ✅ Tamper-proof
 - ✅ Transparent
 - ✅ Auditable
@@ -265,6 +274,7 @@ Message: "Weekly limit exceeded"
 ### 1. Start Small
 
 Don't set high limits immediately:
+
 - Learn the system first
 - Understand typical costs
 - Build confidence gradually
@@ -272,6 +282,7 @@ Don't set high limits immediately:
 ### 2. Review Regularly
 
 Check spending weekly:
+
 - Are limits too restrictive?
 - Any unusual patterns?
 - Adjust based on usage
@@ -279,6 +290,7 @@ Check spending weekly:
 ### 3. Separate Wallets
 
 Consider using different wallets:
+
 - **Testing Wallet**: Low limits, experimental
 - **Production Wallet**: Higher limits, vetted services
 - **Emergency Wallet**: Backup funds
@@ -286,6 +298,7 @@ Consider using different wallets:
 ### 4. Set Realistic Limits
 
 Base limits on:
+
 - Your budget
 - Expected usage
 - Service costs
@@ -294,6 +307,7 @@ Base limits on:
 ### 5. Monitor Alerts
 
 Enable notifications for:
+
 - Limit approaching (80%)
 - Limit exceeded
 - Unusual activity
@@ -303,11 +317,13 @@ Enable notifications for:
 ### "Can't set limits"
 
 **Possible causes**:
+
 - Wallet not connected
 - Invalid limit hierarchy
 - Transaction failed
 
 **Solution**:
+
 ```
 1. Check wallet connection
 2. Ensure: Monthly ≥ Weekly ≥ Daily
@@ -317,6 +333,7 @@ Enable notifications for:
 ### "Payment rejected despite having funds"
 
 **Check**:
+
 ```
 1. Daily limit: Not exceeded?
 2. Weekly limit: Not exceeded?
@@ -327,6 +344,7 @@ Enable notifications for:
 ### "Limits not updating"
 
 **Solution**:
+
 ```
 1. Wait for transaction confirmation
 2. Refresh the page
@@ -339,6 +357,7 @@ Enable notifications for:
 ### Multi-Signature Limits
 
 For organizations:
+
 - Require 2+ approvals for limit changes
 - Prevents single point of failure
 - Audit trail for all modifications
@@ -346,6 +365,7 @@ For organizations:
 ### Dynamic Limits
 
 Coming soon:
+
 - Adjust based on time of day
 - Higher limits during business hours
 - Lower limits at night
@@ -353,6 +373,7 @@ Coming soon:
 ### Spend Analysis
 
 Coming soon:
+
 - Service breakdown
 - Cost optimization suggestions
 - Spending predictions
@@ -362,6 +383,7 @@ Coming soon:
 ### Private Key Protection
 
 Your spending limits protect against:
+
 - Compromised API access
 - Malicious service requests
 - Accidental overspending
@@ -371,6 +393,7 @@ Even if someone gains access to Jarvis402, they **cannot** exceed your configure
 ### Smart Contract Audits
 
 Our SpendingLimits contract:
+
 - ✅ Open source
 - ✅ Professionally audited
 - ✅ Battle-tested

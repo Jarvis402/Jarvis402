@@ -31,6 +31,7 @@ Simply visit [jarvis402.xyz](https://jarvis402.xyz) in your web browser and clic
 ### What browsers are supported?
 
 Jarvis402 works on all modern browsers:
+
 - Google Chrome (recommended) - Version 90+
 - Mozilla Firefox - Version 88+
 - Safari - Version 14+
@@ -39,6 +40,7 @@ Jarvis402 works on all modern browsers:
 ### Does it work on mobile?
 
 Yes! Jarvis402 is fully responsive and works on:
+
 - iOS devices (iPhone, iPad)
 - Android phones and tablets
 - Desktop computers
@@ -53,6 +55,7 @@ No! Jarvis402 is designed for anonymous, immediate access. No registration, emai
 ### Why is there a 50-second cooldown?
 
 The cooldown ensures:
+
 - Fair access for all users
 - System stability during high traffic
 - Protection against abuse
@@ -63,6 +66,7 @@ This rate limiting is necessary to maintain service quality for everyone.
 ### Can I analyze multiple tokens at once?
 
 Yes! You can:
+
 - List multiple contract addresses in one message
 - Ask comparative questions
 - Request analysis of several tokens
@@ -73,6 +77,7 @@ The AI will process all tokens in a single request.
 ### Does it save my chat history?
 
 No. Jarvis402 is completely stateless:
+
 - Conversations are not stored on our servers
 - Refresh the page to start a new session
 - No data is logged or tracked
@@ -83,6 +88,7 @@ This protects your privacy but means you can't retrieve old conversations.
 ### How accurate is the analysis?
 
 The AI provides analysis based on:
+
 - Training data from 72,000+ tokens
 - Real-time web search data
 - Live blockchain information
@@ -94,6 +100,7 @@ However, crypto markets are highly volatile and unpredictable. Use insights as o
 ### What blockchains does it support?
 
 Jarvis402 primarily focuses on:
+
 - **Solana** (Pump.fun tokens)
 - **Ethereum** tokens
 - Other EVM-compatible chains
@@ -105,6 +112,7 @@ The AI can analyze any token with publicly available data and contract informati
 ### What AI model powers Jarvis402?
 
 Jarvis402 uses a proprietary AI model specifically trained on cryptocurrency data:
+
 - **72,000+ tokens** in training dataset
 - **Millions of data points** across multiple categories
 - **Continuous learning** from market patterns
@@ -114,6 +122,7 @@ Jarvis402 uses a proprietary AI model specifically trained on cryptocurrency dat
 ### Where does the data come from?
 
 Jarvis402 aggregates data from multiple trusted sources:
+
 - **DexScreener**: Real-time DEX trading data
 - **CoinGecko**: Market cap and price information
 - **Blockchain Explorers**: On-chain transaction data
@@ -123,6 +132,7 @@ Jarvis402 aggregates data from multiple trusted sources:
 ### How fast are the responses?
 
 Expected response times:
+
 - **Page Load**: < 2 seconds
 - **AI Response Start**: 1-3 seconds
 - **Simple Queries**: 5-10 seconds
@@ -134,6 +144,7 @@ Actual times vary based on query complexity and current system load.
 ### Is my data private?
 
 Absolutely:
+
 - **No data storage**: Conversations not saved
 - **No tracking**: No cookies or analytics that identify you
 - **Anonymous usage**: No personal information collected
@@ -145,6 +156,7 @@ Absolutely:
 ### Can I get price predictions?
 
 The AI can provide:
+
 - Risk assessments based on token characteristics
 - Analysis of holder patterns and liquidity
 - Comparison to historical similar tokens
@@ -155,6 +167,7 @@ However, it **cannot** and **will not** predict exact future prices, as crypto m
 ### Does it detect rugpulls?
 
 Yes! The AI is trained to identify:
+
 - Common rugpull warning signs
 - Suspicious contract features
 - Dangerous holder concentrations
@@ -166,6 +179,7 @@ However, sophisticated scammers constantly evolve tactics, so always do addition
 ### Can I request specific analyses?
 
 Yes! You can ask for:
+
 - Risk assessment scores
 - Holder distribution analysis
 - Liquidity depth evaluation
@@ -177,6 +191,7 @@ Yes! You can ask for:
 ### How does the AI understand my questions?
 
 Jarvis402 uses advanced natural language processing:
+
 - Understands conversational queries
 - Recognizes crypto-specific terminology
 - Maintains context across the conversation
@@ -189,6 +204,7 @@ Jarvis402 uses advanced natural language processing:
 ### The website won't load
 
 Try these solutions:
+
 1. Check your internet connection
 2. Clear your browser cache
 3. Try a different browser
@@ -198,6 +214,7 @@ Try these solutions:
 ### The chat interface isn't responding
 
 Common fixes:
+
 1. Refresh the page
 2. Ensure JavaScript is enabled
 3. Clear browser cookies
@@ -207,6 +224,7 @@ Common fixes:
 ### The AI is taking too long
 
 This is normal if:
+
 - Your query is complex
 - Multiple data sources are being queried
 - The system is under high load
@@ -216,6 +234,7 @@ Wait up to 30 seconds. If longer, refresh and try again.
 ### I'm getting error messages
 
 If you see errors:
+
 1. Refresh the page and try again
 2. Simplify your query
 3. Check your internet connection
@@ -225,6 +244,7 @@ If you see errors:
 ### The cooldown timer isn't working
 
 The 50-second cooldown is enforced:
+
 - Refreshing won't reset it
 - Opening new tabs won't bypass it
 - It's tracked in your browser's local storage
@@ -237,6 +257,7 @@ This is intentional to ensure fair usage.
 ### Is Jarvis402 secure?
 
 Yes, we implement multiple security measures:
+
 - **HTTPS Encryption**: All traffic encrypted
 - **Input Validation**: User inputs sanitized
 - **Rate Limiting**: Protection against abuse
@@ -247,6 +268,7 @@ Yes, we implement multiple security measures:
 ### Can users manipulate the AI?
 
 Jarvis402 has multiple layers of protection against:
+
 - Prompt injection attacks
 - Role-playing attempts
 - System prompt extraction
@@ -257,6 +279,7 @@ While no system is perfect, we actively monitor and improve defenses.
 ### How do I report security issues?
 
 Please report vulnerabilities to:
+
 - **Email**: security@jarvis402.xyz
 - Be responsible - don't disclose publicly until fixed
 - We'll acknowledge within 48 hours
@@ -267,6 +290,7 @@ Please report vulnerabilities to:
 ### Where is Jarvis402 hosted?
 
 Jarvis402 runs on enterprise-grade cloud infrastructure with:
+
 - **99.9% uptime** guarantee
 - **Global CDN** for fast loading worldwide
 - **Auto-scaling** to handle traffic spikes
@@ -283,6 +307,7 @@ Jarvis402 runs on enterprise-grade cloud infrastructure with:
 ### Can I use Jarvis402 for commercial purposes?
 
 Jarvis402 is designed for personal research and education. For commercial API access or white-label solutions, please contact us at:
+
 - **Email**: business@jarvis402.xyz
 
 ### Is the source code available?
@@ -301,6 +326,7 @@ No. Jarvis402 is a proprietary, closed-source platform. This protects our AI tra
 ### I have a feature request
 
 We'd love to hear it!
+
 1. Email us at: features@jarvis402.xyz
 2. Join our Discord and share in #feature-requests
 3. Tweet at us: [@jarvis402xyz](https://x.com/jarvis402xyz)
@@ -308,6 +334,7 @@ We'd love to hear it!
 ### How do I report a bug?
 
 Please include:
+
 - Description of the issue
 - What you were doing when it occurred
 - Browser and device information
@@ -318,6 +345,7 @@ Send to: support@jarvis402.xyz
 ### The docs didn't answer my question
 
 Please:
+
 1. Search the documentation for keywords
 2. Check [Common Issues](../troubleshooting/common-issues.md)
 3. Ask in our Discord community
@@ -328,6 +356,7 @@ Please:
 ### What features are coming?
 
 Planned improvements:
+
 - **Multi-Chain Support**: Ethereum, Base, and more
 - **Advanced Analytics**: More detailed token metrics
 - **Portfolio Tracking**: Analyze entire portfolios
@@ -345,6 +374,7 @@ Planned improvements:
 ### Can I suggest improvements to the AI?
 
 Yes! We value user feedback:
+
 - Share your experience in Discord
 - Email specific suggestions to: feedback@jarvis402.xyz
 - Report inaccuracies to help improve training data

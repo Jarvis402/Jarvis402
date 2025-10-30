@@ -24,7 +24,7 @@ export async function getBirdeyeTokenMarketData(contractAddress) {
       {
         method: 'GET',
         headers: {
-          'accept': 'application/json',
+          accept: 'application/json',
           'X-API-KEY': apiKey,
         },
       }

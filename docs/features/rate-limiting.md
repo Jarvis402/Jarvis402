@@ -106,16 +106,13 @@ useEffect(() => {
 ### Send Button States
 
 ```jsx
-<button
-  type="submit"
-  disabled={isLoading || !input.trim() || cooldownRemaining > 0}
->
+<button type="submit" disabled={isLoading || !input.trim() || cooldownRemaining > 0}>
   {isLoading ? (
-    <Loader2 className="w-5 h-5 animate-spin" />
+    <Loader2 className="h-5 w-5 animate-spin" />
   ) : cooldownRemaining > 0 ? (
     <span>{cooldownRemaining}s</span>
   ) : (
-    <Send className="w-5 h-5" />
+    <Send className="h-5 w-5" />
   )}
 </button>
 ```
@@ -123,23 +120,22 @@ useEffect(() => {
 ### Input Field States
 
 ```jsx
-<input
-  disabled={isLoading || cooldownRemaining > 0}
-  placeholder="Ask about a token..."
-/>
+<input disabled={isLoading || cooldownRemaining > 0} placeholder="Ask about a token..." />
 ```
 
 ### Status Message
 
 ```jsx
-{cooldownRemaining > 0 ? (
-  <span className="text-[#0f9d58]">
-    There is currently high traffic. Please wait {cooldownRemaining} seconds
-    before sending another message.
-  </span>
-) : (
-  'Jarvis402 provides AI-generated insights. Always do your own research.'
-)}
+{
+  cooldownRemaining > 0 ? (
+    <span className="text-[#0f9d58]">
+      There is currently high traffic. Please wait {cooldownRemaining} seconds before sending
+      another message.
+    </span>
+  ) : (
+    'Jarvis402 provides AI-generated insights. Always do your own research.'
+  );
+}
 ```
 
 ## Configuration
@@ -149,6 +145,7 @@ useEffect(() => {
 To modify the 50-second cooldown, update these locations in `app/app/page.js`:
 
 1. **Line 43-46**: Cooldown check
+
 ```javascript
 if (timeSinceLastSubmit < 50 && lastSubmitTime > 0) {
   const remaining = Math.ceil(50 - timeSinceLastSubmit);
@@ -157,11 +154,13 @@ if (timeSinceLastSubmit < 50 && lastSubmitTime > 0) {
 ```
 
 2. **Line 58**: Initial cooldown setting
+
 ```javascript
 setCooldownRemaining(50); // Change this
 ```
 
 3. **Line 46-49**: Restoration check
+
 ```javascript
 if (timeSinceLastSubmit < 50) {
   const remaining = Math.ceil(50 - timeSinceLastSubmit);
@@ -192,6 +191,7 @@ This should match or exceed your cooldown duration.
 **Value**: Timestamp in milliseconds (string)
 
 **Example**:
+
 ```
 "1734567890123"
 ```
@@ -199,6 +199,7 @@ This should match or exceed your cooldown duration.
 ### Cleanup Strategy
 
 localStorage is cleaned up:
+
 1. When cooldown reaches 0
 2. When expired timestamp is detected on mount
 3. Never accumulates stale data
@@ -226,6 +227,7 @@ localStorage is cleaned up:
 4. **Fair usage**: Prevents accidental spam, not malicious abuse
 
 For production systems requiring stronger enforcement, consider:
+
 - Session-based rate limiting
 - IP-based rate limiting
 - Authentication-based quotas
@@ -252,6 +254,7 @@ For production systems requiring stronger enforcement, consider:
 **Symptoms**: Can send multiple messages immediately
 
 **Solutions**:
+
 1. Check browser console for JavaScript errors
 2. Verify localStorage is enabled
 3. Ensure useEffect hooks are running
@@ -262,6 +265,7 @@ For production systems requiring stronger enforcement, consider:
 **Symptoms**: Countdown never reaches 0
 
 **Solutions**:
+
 1. Refresh the page
 2. Clear localStorage manually:
    ```javascript
@@ -274,6 +278,7 @@ For production systems requiring stronger enforcement, consider:
 **Symptoms**: Refresh bypasses cooldown
 
 **Solutions**:
+
 1. Verify localStorage restoration useEffect exists
 2. Check that 'lastSubmitTime' is being stored
 3. Ensure parseInt is parsing correctly

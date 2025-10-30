@@ -42,26 +42,25 @@ jarvis402/
 Root layout component that wraps all pages.
 
 ```javascript
-import { JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import { JetBrains_Mono } from 'next/font/google';
+import './globals.css';
 
 export const metadata = {
-  title: "Jarvis402 - AI-Powered Crypto Intelligence",
-  description: "Get AI-powered insights...",
+  title: 'Jarvis402 - AI-Powered Crypto Intelligence',
+  description: 'Get AI-powered insights...',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jetbrainsMono.variable}>
-        {children}
-      </body>
+      <body className={jetbrainsMono.variable}>{children}</body>
     </html>
   );
 }
 ```
 
 **Purpose:**
+
 - Defines app-wide metadata (title, description)
 - Loads and configures fonts
 - Imports global styles
@@ -72,6 +71,7 @@ export default function RootLayout({ children }) {
 Landing page with hero section, features, and marketing content.
 
 **Key sections:**
+
 - Hero with animated text and CTA buttons
 - Stats bar (72K+ tokens analyzed, etc.)
 - Features grid (6 feature cards)
@@ -81,6 +81,7 @@ Landing page with hero section, features, and marketing content.
 - Footer with links and disclaimer
 
 **Technologies used:**
+
 - Framer Motion for animations
 - Lucide React for icons
 - Matrix Rain component for background
@@ -90,6 +91,7 @@ Landing page with hero section, features, and marketing content.
 Chat interface where users interact with the AI.
 
 **Key features:**
+
 - Real-time streaming chat
 - Contract address input field
 - Rate limiting with 50s cooldown
@@ -98,6 +100,7 @@ Chat interface where users interact with the AI.
 - Animated message appearance
 
 **State management:**
+
 ```javascript
 const [input, setInput] = useState('');
 const [cooldownRemaining, setCooldownRemaining] = useState(0);
@@ -110,6 +113,7 @@ const [contractAddress, setContractAddress] = useState('');
 Backend API route that handles chat requests.
 
 **Responsibilities:**
+
 - Receives user messages
 - Configures AI model (Gemini 2.5 Flash)
 - Defines system prompt with security measures
@@ -117,6 +121,7 @@ Backend API route that handles chat requests.
 - Streams AI responses back to client
 
 **Configuration:**
+
 ```javascript
 export const maxDuration = 50;
 
@@ -124,7 +129,7 @@ const result = streamText({
   model: google('gemini-2.5-flash'),
   tools: {
     google_search: google.tools.googleSearch({}),
-    url_context: google.tools.urlContext({})
+    url_context: google.tools.urlContext({}),
   },
   system: systemPrompt,
   messages: convertToModelMessages(messages),
@@ -138,6 +143,7 @@ const result = streamText({
 Animated Matrix-style rain background effect.
 
 **Implementation:**
+
 - Canvas-based animation
 - Green characters falling
 - Randomized speed and positioning
@@ -170,10 +176,12 @@ Jarvis402 uses Next.js 16's App Router architecture:
 ### Server vs Client Components
 
 **Server Components (default):**
+
 - `/app/layout.js` (except where client features needed)
 - Better performance, smaller bundle
 
 **Client Components (`'use client'`):**
+
 - `/app/page.js` (uses Framer Motion)
 - `/app/app/page.js` (interactive chat)
 - `/app/components/MatrixRain.js` (canvas animation)
@@ -250,6 +258,7 @@ Utility-first CSS framework:
 ### Custom Colors
 
 Green theme with variations:
+
 - `#0f9d58` - Primary green
 - `#1db954` - Secondary green
 - `#a8daad` - Light green
@@ -258,6 +267,7 @@ Green theme with variations:
 ### Responsive Design
 
 Mobile-first approach:
+
 ```jsx
 <div className="text-xl md:text-3xl lg:text-5xl">
 ```
@@ -291,23 +301,23 @@ npm start
 
 ### Core Dependencies
 
-| Package | Purpose | Version |
-|---------|---------|---------|
-| `next` | React framework | 16.0.0 |
-| `react` | UI library | 19.2.0 |
-| `ai` | Vercel AI SDK | 5.0.76 |
-| `@ai-sdk/google` | Google AI integration | 2.0.23 |
-| `@ai-sdk/react` | React hooks for AI | 2.0.76 |
+| Package          | Purpose               | Version |
+| ---------------- | --------------------- | ------- |
+| `next`           | React framework       | 16.0.0  |
+| `react`          | UI library            | 19.2.0  |
+| `ai`             | Vercel AI SDK         | 5.0.76  |
+| `@ai-sdk/google` | Google AI integration | 2.0.23  |
+| `@ai-sdk/react`  | React hooks for AI    | 2.0.76  |
 
 ### UI Dependencies
 
-| Package | Purpose |
-|---------|---------|
-| `tailwindcss` | Utility CSS framework |
-| `framer-motion` | Animation library |
-| `lucide-react` | Icon library |
-| `react-markdown` | Markdown rendering |
-| `remark-gfm` | GitHub Flavored Markdown |
+| Package          | Purpose                  |
+| ---------------- | ------------------------ |
+| `tailwindcss`    | Utility CSS framework    |
+| `framer-motion`  | Animation library        |
+| `lucide-react`   | Icon library             |
+| `react-markdown` | Markdown rendering       |
+| `remark-gfm`     | GitHub Flavored Markdown |
 
 ## Security Considerations
 
@@ -334,6 +344,7 @@ npm start
 ### Code Splitting
 
 Next.js automatically splits code by route:
+
 - Landing page bundle
 - Chat page bundle
 - Shared components bundle
@@ -341,6 +352,7 @@ Next.js automatically splits code by route:
 ### Image Optimization
 
 Next.js Image component (if used):
+
 - Automatic WebP conversion
 - Lazy loading
 - Responsive sizes
@@ -348,6 +360,7 @@ Next.js Image component (if used):
 ### Streaming Responses
 
 AI responses stream token-by-token:
+
 - Faster perceived performance
 - Progressive rendering
 - Better UX

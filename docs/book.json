@@ -43,9 +43,7 @@
       "size": 2
     },
     "prism": {
-      "css": [
-        "prism-themes/themes/prism-ghcolors.css"
-      ]
+      "css": ["prism-themes/themes/prism-ghcolors.css"]
     },
     "theme-default": {
       "showLevel": true,
