@@ -10,14 +10,14 @@ export default function Home() {
     <div className="relative min-h-screen overflow">
       {/* Background Image */}
       <div className="fixed inset-0 z-0">
-        <Image
-          src="/background.png"
+        <img
+          src="/background.jpg"
           alt="Background"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/85" />
+        <div className="absolute inset-0 bg-black/65" />
       </div>
       <div className="relative z-10">
         {/* Header */}
@@ -239,7 +239,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="group relative overflow-hidden bg-[#D97642]/5 border border-[#D97642]/20 hover:border-[#D97642]/60 transition-all duration-500"
+                className="group relative overflow-hidden bg-[#D97642]/5 backdrop-blur border border-[#D97642]/20 hover:border-[#D97642]/60 transition-all duration-500"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#D97642]/0 to-[#D97642]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative p-10">
@@ -263,7 +263,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="group relative overflow-hidden bg-[#D97642]/5 border border-[#D97642]/20 hover:border-[#D97642]/60 transition-all duration-500"
+                className="group relative overflow-hidden bg-[#D97642]/5 backdrop-blur border border-[#D97642]/20 hover:border-[#D97642]/60 transition-all duration-500"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#D97642]/0 to-[#D97642]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative p-10">
@@ -290,7 +290,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="group relative bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
+                className="group relative backdrop-blur bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
               >
                 <Lock className="w-12 h-12 text-[#D97642] mb-4" />
                 <h3 className="text-xl font-semibold text-[#D97642] mb-3">No Registration</h3>
@@ -304,7 +304,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="group relative bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
+                className="group relative backdrop-blur bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
               >
                 <Brain className="w-12 h-12 text-[#D97642] mb-4" />
                 <h3 className="text-xl font-semibold text-[#D97642] mb-3">Smart Resource Access</h3>
@@ -318,7 +318,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
+                className="group relative backdrop-blur bg-gradient-to-br from-[#D97642]/10 to-[#D97642]/5 border-l-4 border-[#D97642] p-8 hover:from-[#D97642]/20 hover:to-[#D97642]/10 transition-all duration-300 hover:translate-x-2"
               >
                 <Shield className="w-12 h-12 text-[#D97642] mb-4" />
                 <h3 className="text-xl font-semibold text-[#D97642] mb-3">Open Standard</h3>
