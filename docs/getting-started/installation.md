@@ -112,7 +112,7 @@ If you encounter any issues accessing Jarvis402:
 
 - **Email Support**: [support@jarvis402.xyz](mailto:support@jarvis402.xyz)
 - **Discord Community**: [Join our Discord](https://discord.gg/jarvis402)
-- **X**: [@jarvis402ai](https://x.com/jarvis402ai)
+- **X**: [@jarvis402xyz](https://x.com/jarvis402xyz)
 - **FAQ**: Check our [Frequently Asked Questions](../appendix/faq.md)
 
 ## Next Steps

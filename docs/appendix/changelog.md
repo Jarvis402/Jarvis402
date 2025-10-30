@@ -63,7 +63,7 @@ We use Semantic Versioning: MAJOR.MINOR.PATCH
 
 ## Stay Updated
 
-- Follow [@jarvis402ai](https://twitter.com/jarvis402xyz) on X
+- Follow [@jarvis402xyz](https://x.com/jarvis402xyz) on X
 - Join our [Discord community](https://discord.gg/jarvis402)
 - Check [jarvis402.xyz](https://jarvis402.xyz) for latest version
 

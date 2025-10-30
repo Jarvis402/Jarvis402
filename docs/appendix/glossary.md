@@ -1,209 +1,241 @@
 # Glossary
 
-Common cryptocurrency and Jarvis402-specific terms explained.
+Key terms and concepts for understanding Jarvis402 and the x402 protocol.
 
-## General Crypto Terms
+## x402 Protocol Terms
 
-**APE / Aping**
-Buying a token impulsively without research. High risk behavior.
+**x402**
+An open protocol for internet-native payments built around the HTTP 402 status code. Enables programmatic, blockchain-based payments for digital resources.
 
-**ATH (All-Time High)**
-The highest price a token has ever reached.
+**HTTP 402 Payment Required**
+A standard HTTP status code indicating that payment is required to access a resource. The x402 protocol leverages this for autonomous payment flows.
 
-**Bonding Curve**
-A mathematical curve that determines token price on platforms like Pump.fun. Price increases as more tokens are bought.
+**Facilitator**
+A service or smart contract that mediates x402 payments between payers and service providers.
 
-**DYOR (Do Your Own Research)**
-Critical principle: Always verify information independently before investing.
+**Payment Proof**
+Cryptographic evidence (transaction hash, receipt) that demonstrates a payment has been made on-chain.
 
-**DEX (Decentralized Exchange)**
-Peer-to-peer marketplace (e.g., Uniswap, Raydium) without centralized control.
+**Service Provider**
+Entity offering x402-compatible APIs, data, or digital resources for payment.
 
-**FDV (Fully Diluted Valuation)**
-Market cap if all possible tokens were in circulation.
+**x402 Registry**
+On-chain registry of verified services that accept x402 payments.
 
-**FOMO (Fear of Missing Out)**
-Anxiety-driven buying during price pumps. Often leads to poor decisions.
+## Jarvis402 Terms
 
-**FUD (Fear, Uncertainty, Doubt)**
-Negative information, sometimes intentionally spread to drive prices down.
+**Jarvis402**
+An autonomous AI agent that handles x402 payments on behalf of users through natural language interaction.
 
-**Gas Fees**
-Transaction costs on blockchains.
+**Autonomous Payment**
+Payment processed automatically by Jarvis402 without manual wallet approval for each transaction (within configured limits).
 
-**GM / GN**
-"Good Morning" / "Good Night" - common crypto community greetings.
+**Spending Limit**
+User-defined maximum amounts (daily/weekly/monthly) that Jarvis402 can spend autonomously.
 
-**Honeypot**
-Scam contract that allows buying but prevents selling.
+**Payment Gateway**
+Smart contract that processes x402 payments, holding funds briefly before releasing to service providers.
 
-**Liquidity**
-Available funds in trading pools. Higher = easier to buy/sell.
+**J402 Token**
+Native ecosystem token for Jarvis402. Used for rewards, governance, and staking.
 
-**LP (Liquidity Provider)**
-User who deposits tokens into trading pools.
+## Blockchain Terms
 
-**Market Cap**
-Total value of all circulating tokens (price × circulating supply).
+**Gas Fee**
+Transaction cost paid to blockchain validators for processing transactions. Varies by network congestion.
 
-**Memecoin**
-Token with no utility, driven by community and memes. High risk, high volatility.
+**Settlement Time**
+Time required for blockchain transaction confirmation. Typically ~2 seconds on modern chains.
 
-**Mint Authority**
-Permission to create new tokens. Should be revoked for safety.
+**Blockchain Agnostic**
+Compatible with multiple blockchain networks (Ethereum, Solana, etc.) without being tied to one specific chain.
 
-**Moon / Mooning**
-Rapid, significant price increase.
-
-**Pump and Dump**
-Coordinated buying to increase price, followed by mass selling. Illegal in traditional markets, common in crypto.
-
-**Rekt**
-Suffered major losses.
-
-**Rugpull**
-Scam where developers drain liquidity or dump tokens, crashing price.
-
-**Shill**
-Promote a token, often for personal gain.
-
-**Slippage**
-Price difference between expected and actual trade execution.
+**Non-Custodial**
+System where users retain control of their private keys and funds. Jarvis402 never holds your crypto.
 
 **Smart Contract**
-Self-executing code on blockchain.
+Self-executing code on blockchain that automatically enforces agreements without intermediaries.
 
-**Token**
-Digital asset on a blockchain.
+**Transaction Hash (TxHash)**
+Unique identifier for a blockchain transaction. Used to verify and track payments.
 
-**Wagmi (We're All Gonna Make It)**
-Optimistic community phrase.
+**Wallet**
+Software (MetaMask, Coinbase Wallet) that stores private keys and enables blockchain interactions.
 
-**Whale**
-Holder with large amount of tokens, able to influence price.
+## AI & Chat Terms
 
-## Jarvis402-Specific Terms
-
-**AI Oracle**
-Jarvis402's AI system that provides cryptocurrency analysis.
-
-**Contract Address**
-Unique identifier for a token's smart contract. Always verify!
-
-**Cooldown Period**
-The 50-second wait between messages on Jarvis402.
-
-**Conversation Context**
-Jarvis402 remembers your session history to understand follow-up questions.
-
-**Green Flags**
-Positive indicators that reduce risk (e.g., locked liquidity, renounced ownership).
-
-**Red Flags**
-Warning signs that increase risk (e.g., whale concentration, unlocked liquidity).
-
-**Risk Score**
-Jarvis402's quantified assessment: LOW 🟢, MEDIUM 🟡, or HIGH 🔴.
+**Natural Language Processing (NLP)**
+AI technology that understands human language, enabling conversational interaction with Jarvis402.
 
 **Streaming Response**
-Real-time text generation as Jarvis402 formulates answers.
+Real-time text generation where AI response appears word-by-word as it's generated.
 
-**Web Search Integration**
-Jarvis402's capability to fetch real-time data from the internet.
+**Context Window**
+Amount of conversation history the AI remembers for maintaining coherent dialogue.
 
-## Technical Terms
+**Prompt**
+User's input message to the AI agent.
 
-**ERC-20**
-Token standard on Ethereum blockchain.
+**Token (AI Context)**
+Unit of text the AI processes. Different from cryptocurrency tokens.
 
-**SPL Token**
-Token standard on Solana blockchain.
+## Payment & Economic Terms
 
-**Blockchain Explorer**
-Website to view blockchain transactions (e.g., Etherscan, Solscan).
+**Micropayment**
+Very small payment (e.g., $0.01 - $1.00) enabled by low-fee blockchain transactions.
 
-**Contract Verification**
-Publishing source code to prove contract does what it claims.
+**Pay-Per-Use**
+Pricing model where you pay only for what you consume, not subscriptions.
 
-**Holder Distribution**
-Breakdown of token ownership across wallets.
+**Zero-Fee Transaction**
+x402 payments have no platform fees - only blockchain gas and service costs.
 
-**Liquidity Lock**
-Mechanism preventing liquidity removal for specified time.
+**Settlement**
+Finalization of payment transfer from payer to service provider.
 
-**On-Chain Data**
-Information stored directly on blockchain, publicly verifiable.
+**Refund**
+Return of payment if service fails to deliver or dispute is resolved in payer's favor.
 
-**Ownership Renounced**
-Developer gives up control of contract. Generally positive.
+## Security Terms
 
-**Top Holders**
-Wallets with largest token amounts. High concentration = risk.
+**Spending Cap**
+See "Spending Limit" - maximum autonomous spending allowed.
 
-## Platform-Specific
+**Rate Limiting**
+Restrictions on request frequency to prevent abuse.
 
-**DexScreener**
-Popular DEX analytics platform. Used by Jarvis402 for data.
+**Verification**
+Process of confirming service legitimacy in the x402 registry.
 
-**Pump.fun**
-Solana platform for memecoin launches with bonding curves.
+**Transaction Monitoring**
+Tracking payments and spending against configured limits.
 
-**Graduation (Pump.fun)**
-When token reaches market cap threshold and moves to Raydium DEX.
+**Private Key**
+Secret cryptographic key that controls your wallet. Never share this!
 
-**Raydium**
-Popular Solana DEX where Pump.fun tokens "graduate" to.
+**Seed Phrase**
+12-24 word backup phrase for recovering your wallet. Store securely!
 
-**Telegram / Discord**
-Common platforms for crypto project communities.
+## Service & API Terms
 
-## Risk & Security
+**API (Application Programming Interface)**
+Software interface that allows different programs to communicate. Many x402 services are APIs.
 
-**Audit**
-Professional security review of smart contract code.
+**Endpoint**
+Specific URL where an API service can be accessed.
 
-**Freeze Authority**
-Ability to freeze token transfers. Major red flag.
+**HTTP Request**
+Message sent to a server to access a resource or service.
 
-**Hidden Functions**
-Contract capabilities not obvious from interface. Often malicious.
+**HTTP Response**
+Server's reply to a request, containing data or status codes.
 
-**KYC (Know Your Customer)**
-Identity verification. KYC'd teams are less likely to scam.
+**JSON (JavaScript Object Notation)**
+Standard format for structuring data in API responses.
 
-**Multisig (Multi-Signature)**
-Wallet requiring multiple approvals for transactions. Safer than single control.
+**REST API**
+Type of web API that uses HTTP requests. Common for x402 services.
 
-**Scam Patterns**
-Common indicators Jarvis402 recognizes from training data.
+## OpenZeppelin Terms
 
-## Trading Terms
+**ERC20**
+Standard interface for fungible tokens on Ethereum. J402 follows this standard.
 
-**Entry**
-Price at which you buy a token.
+**Ownable**
+Contract pattern where certain functions can only be called by the contract owner.
 
-**Exit**
-Price at which you sell a token.
+**ReentrancyGuard**
+Security feature preventing attacks where malicious contracts call functions repeatedly.
 
-**Position**
-Amount of capital allocated to a token.
+**Burnable**
+Token feature allowing permanent destruction of tokens to reduce supply.
 
-**Position Sizing**
-Determining how much to invest based on risk.
+## Solidity & Smart Contract Terms
 
-**Stop Loss**
-Predetermined price to exit and limit losses.
+**Solidity**
+Programming language used for writing Ethereum smart contracts.
 
-**Take Profit**
-Predetermined price to exit and secure gains.
+**Mapping**
+Data structure in Solidity similar to a dictionary or hash table.
 
-## Need More Help?
+**Event**
+Blockchain log emitted by smart contract for tracking state changes.
 
-- **Full Documentation**: Browse [Jarvis402 docs](../README.md)
-- **FAQ**: Check [Frequently Asked Questions](faq.md)
-- **Support**: Email support@jarvis402.xyz
-- **Community**: Join [Discord](https://discord.gg/jarvis402)
+**Modifier**
+Reusable code in Solidity that adds conditions to functions.
+
+**Wei**
+Smallest unit of Ether. 1 ETH = 10^18 wei.
+
+## Testing Terms
+
+**Hardhat**
+Development environment for compiling, testing, and deploying Ethereum smart contracts.
+
+**Chai**
+Assertion library used for writing contract tests.
+
+**Test Fixture**
+Reusable test setup that deploys contracts in a consistent state.
+
+**Coverage**
+Percentage of code executed by tests. Higher coverage = better testing.
+
+**Mock Contract**
+Simplified version of a contract used for testing purposes.
+
+## Common Abbreviations
+
+**AI** - Artificial Intelligence
+**API** - Application Programming Interface
+**DYOR** - Do Your Own Research
+**ETH** - Ethereum (cryptocurrency)
+**HTTP** - Hypertext Transfer Protocol
+**IPFS** - InterPlanetary File System
+**JSON** - JavaScript Object Notation
+**NLP** - Natural Language Processing
+**REST** - Representational State Transfer
+**SDK** - Software Development Kit
+**SOL** - Solana (cryptocurrency)
+**URL** - Uniform Resource Locator
+**UX** - User Experience
+**Web3** - Decentralized internet built on blockchain
+
+## Usage Examples
+
+### Using Terms in Context
+
+**"I set my daily spending limit to 0.1 ETH"**
+- Spending limit: maximum autonomous spending
+- ETH: Ethereum cryptocurrency
+- Daily: 24-hour period
+
+**"The transaction settled in 2 seconds"**
+- Transaction: blockchain payment
+- Settled: confirmed and finalized
+- 2 seconds: settlement time
+
+**"Jarvis found an x402-compatible weather API"**
+- x402-compatible: accepts x402 protocol payments
+- API: web service providing data
+- Weather API: specific service type
+
+**"Check the transaction hash on Etherscan"**
+- Transaction hash: unique payment identifier
+- Etherscan: blockchain explorer website
+- Verification of on-chain activity
+
+## Related Resources
+
+- **x402 Protocol**: [x402.org](https://x402.org)
+- **Ethereum Terms**: [Ethereum Glossary](https://ethereum.org/en/glossary/)
+- **Solidity Docs**: [docs.soliditylang.org](https://docs.soliditylang.org/)
+- **OpenZeppelin**: [docs.openzeppelin.com](https://docs.openzeppelin.com/)
+
+## Contributing
+
+Missing a term? Suggest additions at: [feedback@jarvis402.xyz](mailto:feedback@jarvis402.xyz)
 
 ---
 
-*This glossary is continuously updated. Suggest additions at feedback@jarvis402.xyz*
+*This glossary is continuously updated with new terms as the x402 ecosystem evolves.*

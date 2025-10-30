@@ -278,7 +278,7 @@ Jarvis402 runs on enterprise-grade cloud infrastructure with:
 - **Scheduled Maintenance**: Announced 48 hours in advance
 - **Emergency Maintenance**: Only for critical issues
 - **Status Page**: [status.jarvis402.xyz](https://status.jarvis402.xyz) for real-time status
-- **X Updates**: [@jarvis402ai](https://x.com/jarvis402ai) for notifications
+- **X Updates**: [@jarvis402xyz](https://x.com/jarvis402xyz) for notifications
 
 ### Can I use Jarvis402 for commercial purposes?
 
@@ -295,7 +295,7 @@ No. Jarvis402 is a proprietary, closed-source platform. This protects our AI tra
 
 - 📧 **Email**: support@jarvis402.xyz
 - 💬 **Discord**: [Join our community](https://discord.gg/jarvis402)
-- 🐦 **X**: [@jarvis402ai](https://x.com/jarvis402ai)
+- 🐦 **X**: [@jarvis402xyz](https://x.com/jarvis402xyz)
 - 📖 **Documentation**: This documentation site
 
 ### I have a feature request
@@ -303,7 +303,7 @@ No. Jarvis402 is a proprietary, closed-source platform. This protects our AI tra
 We'd love to hear it!
 1. Email us at: features@jarvis402.xyz
 2. Join our Discord and share in #feature-requests
-3. Tweet at us: [@jarvis402ai](https://x.com/jarvis402ai)
+3. Tweet at us: [@jarvis402xyz](https://x.com/jarvis402xyz)
 
 ### How do I report a bug?
 
@@ -337,7 +337,7 @@ Planned improvements:
 
 ### How do I stay updated?
 
-- 🐦 Follow [@jarvis402ai](https://x.com/jarvis402ai) on X
+- 🐦 Follow [@jarvis402xyz](https://x.com/jarvis402xyz) on X
 - 💬 Join our [Discord community](https://discord.gg/jarvis402)
 - 📧 Subscribe to our newsletter (coming soon)
 - 🔔 Enable notifications on X

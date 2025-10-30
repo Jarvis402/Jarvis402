@@ -1,6 +1,22 @@
 # Quick Start Guide
 
-Get started with Jarvis402 in just minutes! This guide will walk you through your first interaction with the AI oracle.
+Get started with Jarvis402 in just 5 minutes! This guide will walk you through setting up and making your first autonomous payment.
+
+## What You'll Learn
+
+- How to access Jarvis402
+- Making your first payment request
+- Understanding the autonomous payment flow
+- Best practices for safe usage
+
+## Prerequisites
+
+Before you begin, you'll need:
+
+- A web browser (Chrome, Firefox, or Safari recommended)
+- A Web3 wallet (MetaMask, Coinbase Wallet, etc.)
+- Some cryptocurrency for gas fees and payments
+- Basic understanding of blockchain transactions
 
 ## Step 1: Access Jarvis402
 
@@ -11,230 +27,255 @@ https://jarvis402.xyz
 ```
 
 You'll see the landing page featuring:
-- Animated Matrix rain background
-- Hero section with gradient text
-- Feature cards showcasing our capabilities
-- Call-to-action buttons
+- Hero section explaining autonomous AI payments
+- Features showcasing x402 protocol capabilities
+- Statistics (0% fees, ~2s settlement, blockchain agnostic)
+- How it works section
 
-## Step 2: Launch the Chat Interface
+## Step 2: Launch the App
 
-Click the **"Launch App"** button to access the AI chat interface.
+Click the **"Launch App"** button in the navigation or hero section.
 
-The chat interface features:
-- Clean, futuristic design with green accents
-- Message input area at the bottom
-- Optional contract address field for token-specific analysis
-- Pre-built conversation starters to help you get started
+The app interface features:
+- Clean, modern design with orange accents
+- AI chat interface powered by Google Gemini
+- Message input area for natural language requests
+- Real-time streaming responses
 
-## Step 3: Your First Query
+## Step 3: Your First Request
 
-Let's try the built-in conversation starters. Click on:
+Let's make a simple request to understand how Jarvis402 works.
 
-**"What are the current trending memecoins?"**
+### Try a Basic Query
 
-The AI will:
-1. Show a loading indicator ("Jarvis402 is thinking...")
-2. Stream the response in real-time
-3. Display formatted markdown with bullet points and structure
+Type in the chat:
+
+```
+What services can you help me access?
+```
+
+The AI will respond with information about x402-compatible services and APIs available through the protocol.
 
 ### Example Response
 
-You'll receive something like:
+```markdown
+I can help you access x402-compatible services including:
 
-> Based on current market data, here are the trending memecoins:
->
-> 1. **PEPE** - $0.0000012 (+15% 24h)
-> 2. **BONK** - $0.000018 (+8% 24h)
-> 3. **WIF** - $2.45 (+12% 24h)
->
-> [Source: DexScreener]
+1. **Data APIs**
+   - Weather data APIs
+   - Financial market data
+   - News and content APIs
 
-## Step 4: Analyze a Specific Token
+2. **AI Services**
+   - Image generation (Heurist Mesh)
+   - Text processing
+   - Data analysis
 
-Now let's analyze a specific token by contract address:
+3. **Storage Services**
+   - IPFS pinning (Pinata)
+   - Decentralized storage
 
-1. **Enter a contract address** in the "Token Contract Address" field:
-   ```
-   Example: So11111111111111111111111111111111111111112
-   ```
+4. **Web3 Services**
+   - Smart contract deployments (thirdweb)
+   - Blockchain data APIs
 
-2. **Type your question** in the main input:
-   ```
-   Analyze this token and tell me about its risks
-   ```
+When you need access to any of these, just tell me what you need
+and I'll handle the payment automatically!
+```
 
-3. **Click Send** (or press Enter)
+## Step 4: Understanding the Payment Flow
+
+Here's how Jarvis402 handles payments autonomously:
+
+### 1. You Make a Request
+
+```
+Get me the current weather data for New York City from WeatherAPI
+```
+
+### 2. Jarvis Detects Payment Requirement
+
+- The service returns HTTP 402 (Payment Required)
+- Jarvis reads the x402 payment details
+- Shows you the cost: "This will cost 0.001 ETH"
+
+### 3. Autonomous Processing
+
+- Jarvis checks your configured spending limits
+- Submits blockchain transaction automatically
+- Waits for confirmation (~2 seconds)
+- Shows transaction hash for transparency
+
+### 4. Instant Access
+
+- Retries the request with payment proof
+- Receives the weather data
+- Presents formatted results to you
+- All within seconds!
+
+## Step 5: Configure Spending Limits (Recommended)
+
+For safety, set spending limits before making payments:
+
+1. **Daily Limit**: Maximum per 24 hours
+2. **Weekly Limit**: Maximum per 7 days
+3. **Monthly Limit**: Maximum per 30 days
+
+Example limits for testing:
+- Daily: 0.01 ETH
+- Weekly: 0.05 ETH
+- Monthly: 0.2 ETH
+
+> **Note**: Currently, spending limits are managed through smart contracts. See [Configuration Guide](configuration.md) for full setup.
+
+## Step 6: Make Your First Payment Request
+
+Now let's make a real payment request:
+
+```
+I need access to premium weather data for the next 7 days in San Francisco
+```
 
 The AI will:
-- Search for the token on DexScreener
-- Analyze on-chain metrics
-- Assess risk factors
-- Provide a comprehensive report
+1. Find an x402-compatible weather service
+2. Show you the pricing
+3. Request confirmation
+4. Process payment automatically
+5. Deliver the data
 
-### Example Token Analysis
-
-```markdown
-## Token Analysis
-
-**Name:** Example Token (EXMP)
-**Blockchain:** Solana
-
-### Current Metrics
-- Price: $0.0012
-- Market Cap: $1.2M
-- 24h Volume: $450K
-- Holders: 2,350
-
-### Risk Assessment: MEDIUM
-
-**Green Flags:**
-✓ Liquidity locked
-✓ Contract verified
-✓ Growing holder base
-
-**Red Flags:**
-⚠️ Top 10 holders control 45% of supply
-⚠️ Low trading volume
-
-**Recommendation:** Exercise caution. High holder concentration poses risk.
-```
-
-## Step 5: Understanding Rate Limiting
-
-After sending a message, you'll see a **50-second cooldown**:
-
-- The send button shows a countdown timer
-- The input fields are disabled
-- A message appears: "Please wait X seconds before sending another message"
-
-**Why?** This prevents API abuse and ensures fair usage.
-
-### Cooldown Bypass Protection
-
-Try refreshing the page during the cooldown. Notice that:
-- The cooldown persists (doesn't reset)
-- The timer continues counting down
-- localStorage tracks the timeout
-
-This ensures users can't bypass limits by refreshing.
-
-## Step 6: Explore Other Features
-
-### Ask About Market Trends
+### What You'll See
 
 ```
-What metrics should I look at for new tokens?
+Finding x402 weather service...
+Found: WeatherAPI Premium
+Cost: 0.001 ETH (~$2.50)
+
+Proceeding with payment...
+✓ Transaction submitted: 0x1234...
+✓ Confirmed in 2.1 seconds
+✓ Accessing data...
+
+Here's your 7-day forecast for San Francisco:
+[Weather data displayed]
 ```
 
-The AI will explain:
-- Liquidity depth
-- Holder distribution
-- Volume patterns
-- Social metrics
-- Red flags to watch
+## Understanding the Interface
 
-### Request Risk Assessments
+### Chat Interface
 
-```
-How do you assess token risk?
-```
+- **Message Input**: Type natural language requests
+- **Streaming Responses**: See AI responses in real-time
+- **Markdown Formatting**: Responses use headers, lists, and formatting
+- **Transaction Links**: Click to view on block explorer
 
-Learn about Jarvis402's risk analysis methodology.
+### Transaction History
 
-### Get Educational Content
-
-```
-Explain what a rugpull is and how to detect one
-```
-
-The AI provides educational insights about crypto concepts.
-
-## Step 7: Reading Markdown Responses
-
-The AI uses markdown formatting for better readability:
-
-- **Headers** for section titles
-- **Bullet points** for lists
-- **Bold text** for emphasis
-- **Code blocks** for addresses
-- **Tables** for structured data
-- **Links** to sources
-
-All responses are rendered beautifully with proper formatting.
+Each payment shows:
+- Service name
+- Amount paid
+- Transaction hash (clickable)
+- Timestamp
+- Status (pending/confirmed/failed)
 
 ## Best Practices
 
-### 1. Be Specific
+### 1. Start Small
 
-❌ Bad: "Tell me about tokens"
-✅ Good: "Analyze the token at address ABC123 for rugpull risks"
+❌ Bad: Set daily limit to 10 ETH without testing
+✅ Good: Start with 0.01 ETH daily limit while learning
 
-### 2. Provide Contract Addresses
+### 2. Be Specific
 
-When asking about specific tokens, always include the contract address for accurate data.
+❌ Bad: "Get me some data"
+✅ Good: "Get weather data for NYC from WeatherAPI"
 
-### 3. Verify Information
+### 3. Monitor Spending
 
-The AI provides data-driven insights, but always:
-- Check the cited sources
-- Do your own research (DYOR)
-- Verify contract addresses on blockchain explorers
+Check your transaction history regularly to:
+- Track spending against limits
+- Verify service costs
+- Review transaction hashes
 
-### 4. Ask Follow-Up Questions
+### 4. Verify Services
 
-The chat maintains context, so you can ask follow-ups:
+Before using a new x402 service:
+- Check if it's verified in the registry
+- Read reviews from other users
+- Start with small test payments
 
-```
-User: What are the top pump.fun launches today?
-AI: [Lists tokens]
-User: Tell me more about the first one
-AI: [Detailed analysis]
-```
+### 5. Keep Wallet Funded
 
-### 5. Use Natural Language
-
-You don't need to use special commands or syntax. Talk naturally:
-
-```
-"Can you check if this token is safe?"
-"What's the risk level of [address]?"
-"Show me trending tokens under $1M market cap"
-```
+Ensure you have enough for:
+- Service payment costs
+- Blockchain gas fees
+- Small buffer for multiple requests
 
 ## Common First-Time Questions
 
-### Q: Why is the AI taking so long to respond?
+### Q: Is my wallet connected?
 
-A: The AI is performing web searches to get real-time data. This can take 5-15 seconds.
+A: Jarvis402 uses your browser wallet (MetaMask, etc.). You'll be prompted to connect when making your first payment.
 
-### Q: Can I analyze multiple tokens at once?
+### Q: How much does it cost?
 
-A: Yes! List multiple contract addresses in your message.
+A: Jarvis402 charges **0% platform fees**. You only pay:
+- Service provider fees (varies by service)
+- Blockchain gas fees (typically $0.01-$1.00)
 
-### Q: What if I make a typo in the contract address?
+### Q: What if a payment fails?
 
-A: The AI will notify you if it can't find the token. Double-check the address and try again.
+A: Failed payments are automatically refunded. The blockchain transaction will show the refund.
 
-### Q: Is my search history saved?
+### Q: Can I cancel a payment?
 
-A: No. Conversations are not stored. Refresh the page to start fresh.
+A: Once submitted to the blockchain, transactions cannot be cancelled. However, if the service doesn't deliver, you can dispute through the smart contract.
+
+### Q: Which blockchains are supported?
+
+A: Jarvis402 is blockchain agnostic and supports:
+- Ethereum
+- Solana
+- Any x402-compatible chain
+
+### Q: Are my conversations saved?
+
+A: No. Chats are not stored on servers. Refresh to start fresh.
+
+## Safety Tips
+
+🔒 **Security Best Practices:**
+
+- Set conservative spending limits initially
+- Verify service URLs and contracts
+- Never share your private keys
+- Use a dedicated wallet for AI payments
+- Monitor transaction history regularly
+- Only use verified x402 services
+
+⚠️ **Important Warnings:**
+
+- All blockchain transactions are irreversible
+- You are responsible for spending limit configuration
+- Always verify service reputation before use
+- This is experimental software - use at your own risk
 
 ## What's Next?
 
-Now that you're familiar with the basics:
+Now that you've completed your first request:
 
-- 📖 [Learn about all Features](../features/ai-chat.md)
-- 🤖 [Understand our AI Model Training](ai-model-training.md)
-- 📊 [Master Token Analysis](../user-guide/analyzing-tokens.md)
-- 🎯 [Best Practices Guide](../user-guide/best-practices.md)
+- 📖 [Read the Full Installation Guide](installation.md)
+- ⚙️ [Configure Spending Limits](configuration.md)
+- 🔍 [Explore Available Services](../user-guide/finding-services.md)
+- 🛡️ [Learn Security Best Practices](../user-guide/best-practices.md)
+- 📚 [Read the FAQ](../appendix/faq.md)
 
 ## Need Help?
 
 - 📧 **Email Support**: [support@jarvis402.xyz](mailto:support@jarvis402.xyz)
-- 📚 Check the [FAQ](../appendix/faq.md)
-- 💬 Join the [Discord community](https://discord.gg/jarvis402)
-- 🐦 Follow us on X: [@jarvis402ai](https://x.com/jarvis402ai)
+- 💬 **Discord**: [Join our community](https://discord.gg/jarvis402)
+- 🐦 **X**: [@jarvis402xyz](https://x.com/jarvis402xyz)
+- 📖 **Documentation**: [docs.jarvis402.xyz](https://docs.jarvis402.xyz)
 
 ---
 
-**Ready to dive deeper?** Learn about our [AI Model Training](ai-model-training.md) and discover what makes Jarvis402 unique.
+**Ready for full setup?** Continue to the [Installation Guide](installation.md) for complete configuration →

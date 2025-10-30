@@ -189,7 +189,7 @@ For technical support or questions:
 
 - **Email**: [support@jarvis402.xyz](mailto:support@jarvis402.xyz)
 - **Discord**: [Join our community](https://discord.gg/jarvis402)
-- **X**: [@jarvis402ai](https://x.com/jarvis402ai)
+- **X**: [@jarvis402xyz](https://x.com/jarvis402xyz)
 - **Documentation**: Check other guides in this documentation
 
 ## Next Steps

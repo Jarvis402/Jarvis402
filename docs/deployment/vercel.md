@@ -176,7 +176,7 @@ Monitor Jarvis402's status in real-time:
 For infrastructure or platform inquiries:
 
 - **Email**: [support@jarvis402.xyz](mailto:support@jarvis402.xyz)
-- **Status Updates**: [@jarvis402ai](https://x.com/jarvis402ai) on Twitter
+- **Status Updates**: [@jarvis402xyz](https://x.com/jarvis402xyz) on Twitter
 - **Incident Reports**: Posted on status page
 - **Technical Documentation**: This documentation site
 

@@ -16,7 +16,7 @@ Curated collection of helpful resources for cryptocurrency analysis and educatio
 
 **Community**
 - Discord: [discord.gg/jarvis402](https://discord.gg/jarvis402)
-- X: [@jarvis402ai](https://twitter.com/jarvis402xyz)
+- X: [@jarvis402xyz](https://x.com/jarvis402xyz)
 
 **Support**
 - Email: support@jarvis402.xyz

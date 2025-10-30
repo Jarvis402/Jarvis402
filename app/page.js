@@ -547,7 +547,7 @@ export default function Home() {
               <div>
                 <h4 className="font-bold text-[#D97642] mb-4">Community</h4>
                 <ul className="space-y-2 text-gray-300/70 text-sm">
-                  <li><a href="https://x.com/jarvis402" className="hover:text-[#D97642] transition-colors">X</a></li>
+                  <li><a href="https://x.com/jarvis402xyz" className="hover:text-[#D97642] transition-colors">X</a></li>
                   <li><a href="#" className="hover:text-[#D97642] transition-colors">Discord</a></li>
                   <li><a href="#" className="hover:text-[#D97642] transition-colors">Telegram</a></li>
                 </ul>
