@@ -103,14 +103,14 @@ export default function AppPage() {
         {[...Array(20)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-[#D97642]"
+            className="absolute w-1 h-1 bg-[#D97642] rounded-full"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: `${Math.random() * 100}%`,
+              y: `${Math.random() * 100}%`,
               opacity: 0
             }}
             animate={{
-              y: [null, Math.random() * window.innerHeight],
+              y: [`${Math.random() * 100}%`, `${Math.random() * 100}%`],
               opacity: [0, 0.5, 0],
             }}
             transition={{
