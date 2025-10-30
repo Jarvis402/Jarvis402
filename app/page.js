@@ -33,6 +33,7 @@ export default function Home() {
                   <a href="#features" className="text-gray-400 hover:text-[#D97642] transition-colors font-medium uppercase tracking-wider">Features</a>
                   <a href="#how-it-works" className="text-gray-400 hover:text-[#D97642] transition-colors font-medium uppercase tracking-wider">How It Works</a>
                   <a href="https://docs.jarvis402.xyz" className="text-gray-400 hover:text-[#D97642] transition-colors font-medium uppercase tracking-wider">Docs</a>
+                  <a href="https://github.com/Jarvis402/Jarvis402" className="text-gray-400 hover:text-[#D97642] transition-colors font-medium uppercase tracking-wider">Github</a>
                 </div>
               </div>
               <Link
@@ -541,6 +542,7 @@ export default function Home() {
                 <h4 className="font-bold text-[#D97642] mb-4">Resources</h4>
                 <ul className="space-y-2 text-gray-300/70 text-sm">
                   <li><a href="https://docs.jarvis402.xyz" className="hover:text-[#D97642] transition-colors">Documentation</a></li>
+                  <li><a href="https://github.com/Jarvis402/Jarvis402" className="hover:text-[#D97642] transition-colors">Github</a></li>
                 </ul>
               </div>
 
