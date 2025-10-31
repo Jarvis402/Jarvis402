@@ -57,6 +57,12 @@ export default function Home() {
                   >
                     Github
                   </a>
+                  <a
+                    href="https://pump.fun/coin/pUmheb6LavuqmB5YEkUMc3v2ZwXSQJ54vpmWaChpump"
+                    className="font-medium tracking-wider text-gray-400 uppercase transition-colors hover:text-[#D97642]"
+                  >
+                    $JARVIS402
+                  </a>
                 </div>
               </div>
               <Link
